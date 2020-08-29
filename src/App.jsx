@@ -1,10 +1,15 @@
 import React from 'react';
+import {Productos} from './components/Produtos';
+import {Carrito} from './components/Carrito';
+import {Footer} from './components/Footer';
 
 function App() {
   return (
-    <div className="containerApp">
-      
-    </div>
+    <main>
+      <Productos />
+      <Carrito />
+      <Footer />
+    </main>
   );
 }
 
