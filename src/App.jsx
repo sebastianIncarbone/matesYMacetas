@@ -2,7 +2,8 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import store from './store'
 import Productos from './components/Productos';
- import Carrito from './components/Carrito';
+import Carrito from './components/Carrito';
+import "./styles/style.scss";
 // import Footer from './components/Footer';
 
 const  App = () => (

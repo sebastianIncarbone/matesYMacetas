@@ -2,9 +2,9 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 const Productos = ({productos, agregarAlCarrito}) => (
-    <section>
-        <h2> Catalogo </h2>
-        <div className="catalogo">
+    <section className="catalogo">
+        <h2 className="encabezado"> Mates y Macetas <i className="aclaracion">Catalogo</i> </h2>
+        <div className="catalogo1">
             {
                 productos.map(producto => (
                     <article className="producto" >
