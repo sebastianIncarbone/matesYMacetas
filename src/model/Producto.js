@@ -13,8 +13,8 @@ export class Producto {
     } 
     
     _obtenerPrecioParaLaCantidadAComprar() {
-        let cantidadMinimaDelPrecio = Math.max.apply(null,this.precios.map(p=>p.cantidad).filter( c => this.cantidadAComprar >= c ));
-        let precio = this.precios.filter(p=>p.cantidad === cantidadMinimaDelPrecio)[0];
+        let cantidadMinimaDelPrecio = Math.max.apply(null,this.precios.map(p=>p.cantidadMinima).filter( c => this.cantidadAComprar >= c ));
+        let precio = this.precios.filter(p=>p.cantidadMinima === cantidadMinimaDelPrecio)[0];
 
         return precio === undefined? 0:precio.monto
     }
@@ -27,4 +27,7 @@ export class Producto {
         return producto.getSubTotal() + this.getSubTotal();
     }
 
+    resetearCantidad() {
+        this.cantidadAComprar = 0;
+    }
 }

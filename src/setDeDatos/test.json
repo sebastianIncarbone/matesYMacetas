@@ -2,7 +2,7 @@
     {
         "id": 0,
         "nombre": "Mate groot",
-        "foto": "./mate_groot.png",
+        "foto": "https://picsum.photos/seed/picsum/200/300",
         "precios": [
             {
                 "id": 0,
@@ -25,7 +25,7 @@
     {
         "id": 1,
         "nombre": "Mate ironman",
-        "foto": "./mate_ironman.png",
+        "foto": "https://picsum.photos/seed/picsum/200/300",
         "precios": [
             {
                 "id": 3,

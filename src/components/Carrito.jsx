@@ -31,7 +31,7 @@ const mapDispatchToProps = dispatch => ({
     quitarDelCarrito(id) {
                
         dispatch({
-            type: "AGREGAR_PRODUCTO_AL_CARRITO",
+            type: "QUITAR_DEL_CARRITO",
             id
         });
     }

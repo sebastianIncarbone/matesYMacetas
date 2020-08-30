@@ -17,6 +17,15 @@ const editarLaCantidadDeUnProductoDeLaLista = (lista,id,cantidad) => lista.map(p
     return producto;
 }); 
 
+const resetearLaCantidadDeUnProductoDeLaLista = (lista,id) => lista.map(producto => {
+
+    if(producto.id === id) {
+        producto.resetearCantidad();
+    }
+
+    return producto;
+}); 
+
 const reducerShop = (state = initialState, action) => {
 
     if(action.type === "AGREGAR_PRODUCTO_AL_CARRITO") {
@@ -33,10 +42,10 @@ const reducerShop = (state = initialState, action) => {
         }
     }
 
-    if(action.type === "QUITAR_DEL_CARRITO"){
+    if(action.type === "QUITAR_DEL_CARRITO") {
         return {
             ...state,
-            productos: editarLaCantidadDeUnProductoDeLaLista(state.productos,action.id,0),
+            productos: resetearLaCantidadDeUnProductoDeLaLista(state.productos,action.id),
             carrito: [...state.carrito].filter( x => x.id !== action.id)
         }
     }
