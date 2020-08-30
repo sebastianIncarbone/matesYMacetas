@@ -1,0 +1,48 @@
+[
+    {
+        "id": 0,
+        "nombre": "Mate groot",
+        "foto": "./mate_groot.png",
+        "precios": [
+            {
+                "id": 0,
+                "cantidadMinima": 1,
+                "monto": 850
+            },
+            {
+                "id": 1,
+                "cantidadMinima": 5,
+                "monto": 680
+            },
+            {
+                "id": 2,
+                "cantidadMinima": 10,
+                "monto": 630
+            }
+        ],
+        "cantidadAComprar": 0 
+    },
+    {
+        "id": 1,
+        "nombre": "Mate ironman",
+        "foto": "./mate_ironman.png",
+        "precios": [
+            {
+                "id": 3,
+                "cantidadMinima": 1,
+                "monto": 850
+            },
+            {
+                "id": 4,
+                "cantidadMinima": 5,
+                "monto": 680
+            },
+            {
+                "id": 5,
+                "cantidadMinima": 10,
+                "monto": 630
+            }
+        ],
+        "cantidadAComprar": 0 
+    }
+]

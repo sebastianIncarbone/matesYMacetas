@@ -1,6 +1,7 @@
 export class Precio {
 
-    constructor(cantidadMinima, monto) {
+    constructor(id,cantidadMinima, monto) {
+        this.id = id;
         this.cantidadMinima = cantidadMinima;
         this.monto = monto;
     }

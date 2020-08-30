@@ -5,14 +5,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 0,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 1,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 2,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -25,14 +28,17 @@
         "foto": "./mate_ironman.png",
         "precios": [
             {
+                "id": 3,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 4,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 5,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -45,14 +51,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 6,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 7,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 8,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -65,14 +74,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 9,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 10,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 11,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -85,14 +97,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 12,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 13,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 14,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -105,14 +120,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 15,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 16,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 17,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -125,14 +143,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 18,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 19,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 20,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -145,14 +166,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 21,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 22,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 23,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -165,14 +189,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 24,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 25,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 26,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -185,14 +212,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 27,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 28,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 29,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -205,14 +235,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 30,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 31,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 32,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -225,14 +258,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 33,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 34,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 35,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -245,14 +281,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 36,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 37,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 38,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -265,14 +304,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 39,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 40,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 41,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -285,14 +327,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 42,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 43,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 44,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -305,14 +350,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 45,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 46,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 47,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -325,14 +373,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 48,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 49,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 50,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -345,14 +396,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 51,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 52,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 53,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -365,14 +419,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 54,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 55,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 56,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -385,14 +442,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 57,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 58,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 59,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -405,14 +465,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 60,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 61,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 62,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -425,14 +488,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 63,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 64,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 65,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -445,14 +511,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 66,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 67,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 68,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -465,14 +534,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 69,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 70,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 71,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -485,14 +557,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 72,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 73,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 74,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -505,14 +580,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 75,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 76,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 77,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -525,14 +603,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 78,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 79,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 80,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -545,14 +626,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 81,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 82,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 83,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -565,14 +649,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 84,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 85,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 86,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -585,14 +672,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 87,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 88,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 89,
                 "cantidadMinima": 10,
                 "monto": 630
             }
@@ -605,14 +695,17 @@
         "foto": "./mate_groot.png",
         "precios": [
             {
+                "id": 90,
                 "cantidadMinima": 1,
                 "monto": 850
             },
             {
+                "id": 91,
                 "cantidadMinima": 5,
                 "monto": 680
             },
             {
+                "id": 92,
                 "cantidadMinima": 10,
                 "monto": 630
             }

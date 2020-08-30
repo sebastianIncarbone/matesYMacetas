@@ -1,16 +1,22 @@
 import React from 'react';
-import {Productos} from './components/Produtos';
-import {Carrito} from './components/Carrito';
-import {Footer} from './components/Footer';
+import { Provider } from 'react-redux';
+import store from './store'
+import Productos from './components/Productos';
+ import Carrito from './components/Carrito';
+// import Footer from './components/Footer';
 
-function App() {
-  return (
+const  App = () => (
+  <Provider store={store}>
+  
     <main>
+  
       <Productos />
       <Carrito />
-      <Footer />
+      {/* <Footer /> */}
+  
     </main>
-  );
-}
+  
+  </Provider>
+)
 
 export default App;
