@@ -1,0 +1,70 @@
+@media only screen and (max-width: 600px) {
+  body {
+    main {
+      flex-direction: row;
+      flex-wrap: wrap;
+      max-width: 100vw;
+      margin: 0;
+      padding: 0;
+
+      .catalogo {
+        width: 100vw;
+
+        .encabezado {
+          width: 85vw;
+        }
+
+        .catalogo-cuerpo {
+          grid-template-columns: 1fr;
+
+          .producto {
+            .cantidadPedida {
+              .menos,
+              .mas {
+                width: 4em;
+              }
+            }
+          }
+        }
+      }
+
+      .carrito {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        left: 0;
+        top: 100px;
+        margin-bottom: 10px;
+
+        .carrito-cuerpo {
+          height: 60vh;
+
+          .productoDelCarrito {
+            h3 {
+              right: 3.1em;
+            }
+
+            .detalleCopra {
+              right: 3.7em;
+            }
+
+            .subtotal {
+              right: 3.1em;
+            }
+
+            button {
+              width: 20%;
+              right: 0em;
+              transform: scale(0.6);
+            }
+
+            button:active {
+              background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='61.625' height='67' viewBox='0 0 61.625 67'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23FF00009f;%7D.b%7Bfilter:url(%23c);%7D.c%7Bfilter:url(%23a);%7D%3C/style%3E%3Cfilter id='a' x='6' y='6' width='55.625' height='61' filterUnits='userSpaceOnUse'%3E%3CfeOffset dx='3' dy='3' input='SourceAlpha'/%3E%3CfeGaussianBlur stdDeviation='3' result='b'/%3E%3CfeFlood flood-opacity='0.651'/%3E%3CfeComposite operator='in' in2='b'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Cfilter id='c' x='0' y='0' width='55.625' height='61' filterUnits='userSpaceOnUse'%3E%3CfeOffset dx='-3' dy='-3' input='SourceAlpha'/%3E%3CfeGaussianBlur stdDeviation='3' result='d'/%3E%3CfeFlood flood-color='%23fff' flood-opacity='0.651'/%3E%3CfeComposite operator='in' in2='d'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3C/defs%3E%3Cg transform='translate(12 12)'%3E%3Cg class='c' transform='matrix(1, 0, 0, 1, -12, -12)'%3E%3Cpath class='a' d='M2.688,38.969A4.031,4.031,0,0,0,6.719,43H30.906a4.031,4.031,0,0,0,4.031-4.031V10.75H2.688Zm22.844-21.5a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0Zm-8.063,0a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0Zm-8.063,0a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0ZM36.281,2.687H26.2l-.789-1.571A2.016,2.016,0,0,0,23.608,0h-9.6a1.992,1.992,0,0,0-1.8,1.117l-.789,1.571H1.344A1.344,1.344,0,0,0,0,4.031V6.719A1.344,1.344,0,0,0,1.344,8.062H36.281a1.344,1.344,0,0,0,1.344-1.344V4.031A1.344,1.344,0,0,0,36.281,2.687Z' transform='translate(12 12)'/%3E%3C/g%3E%3Cg class='b' transform='matrix(1, 0, 0, 1, -12, -12)'%3E%3Cpath class='a' d='M2.688,38.969A4.031,4.031,0,0,0,6.719,43H30.906a4.031,4.031,0,0,0,4.031-4.031V10.75H2.688Zm22.844-21.5a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0Zm-8.063,0a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0Zm-8.063,0a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0ZM36.281,2.687H26.2l-.789-1.571A2.016,2.016,0,0,0,23.608,0h-9.6a1.992,1.992,0,0,0-1.8,1.117l-.789,1.571H1.344A1.344,1.344,0,0,0,0,4.031V6.719A1.344,1.344,0,0,0,1.344,8.062H36.281a1.344,1.344,0,0,0,1.344-1.344V4.031A1.344,1.344,0,0,0,36.281,2.687Z' transform='translate(12 12)'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+              transform: scale(0.6);
+            }
+          }
+        }
+      }
+    }
+  }
+}

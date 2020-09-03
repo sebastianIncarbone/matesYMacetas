@@ -4,6 +4,7 @@ import store from './store'
 import Productos from './components/Productos';
 import Carrito from './components/Carrito';
 import "./styles/style.scss";
+import "./styles/mobileStyle.scss";
 // import Footer from './components/Footer';
 
 const  App = () => (
