@@ -20,6 +20,9 @@ export class Producto {
     }
 
     sumarMasDeEsteProducto(cantidad) {
+        if((this.cantidadAComprar + cantidad) <= 0){
+            return;
+        }
         this.cantidadAComprar = this.cantidadAComprar + cantidad;
     }
 

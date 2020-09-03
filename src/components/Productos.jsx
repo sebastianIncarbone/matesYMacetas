@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 const Productos = ({productos, agregarAlCarrito}) => (
     <section className="catalogo">
         <h2 className="encabezado"> Mates y Macetas <i className="aclaracion">Catalogo</i> </h2>
-        <div className="catalogo1">
+        <div className="catalogo-cuerpo">
             {
                 productos.map(producto => (
                     <article className="producto" >
@@ -13,21 +13,18 @@ const Productos = ({productos, agregarAlCarrito}) => (
                         <div className="descripcion">
                             {
                                 producto.precios.map( precio => (
-                                    <p className="descripcion_cantidad_precio" >
-                                        <span className="cantidad"> { precio.cantidadMinima } </span>
-                                        <span className="precio"> $ { precio.monto } </span>
-                                    </p>
+                                    <p className="cantidad"> { precio.cantidadMinima } x $ { precio.monto } </p>
                                 ))
                             }
                         </div>
                         <div className="cantidadPedida">
-                            <button onClick={()=>agregarAlCarrito(producto.id,-1)}>-</button>
-                            <input type="number" 
+                            <button className="menos" onClick={()=>agregarAlCarrito(producto.id,-1)}>-</button>
+                            <input type="text" 
                                     className="contadorProducto" 
                                     value={producto.cantidadAComprar}
                                     // onChange={()=>agregarAlCarrito(producto.id, 1)} 
                             />
-                            <button onClick={()=>agregarAlCarrito(producto.id,1)}>+</button>
+                            <button  className="mas" onClick={()=>agregarAlCarrito(producto.id,1)}>+</button>
                         </div>
                     </article>    
                 ))

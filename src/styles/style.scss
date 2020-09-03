@@ -25,6 +25,95 @@ body {
         justify-content: space-between;
         padding: 0 15px 0 15px;
       }
+
+      .catalogo-cuerpo {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 5px 0 5px 0;
+        
+        .producto {
+          position: relative;
+          margin: auto;
+          height: 200px;
+          overflow: hidden;
+          width: 90%;
+          border-radius: 0.8em;
+          background: #eeb4ec;
+          box-shadow: 6px 6px 14px #dda9b9, -6px -6px 14px #ffcfe3;
+          animation: addCard 1s;
+
+          img {
+            width: 120px;
+            height: 120px;
+            border-radius: 1.1em;
+						margin: 15px;
+						box-shadow: 3px 3px 8px #00000042, -3px -3px 8px #ffffff80;
+          }
+
+          h3 {
+            width: 44%;
+            position: absolute;
+            top: -10px;
+            right: 1em;
+            text-align: end;
+            border-bottom: 1px #707070 solid;
+          }
+
+          .descripcion {
+            width: 100px;
+            position: absolute;
+            top: 1.5em;
+            right: 1em;
+            text-align: end;
+          }
+
+          .cantidad {
+            font-weight: 800;
+            height: 10px;
+          }
+
+          .cantidadPedida {
+
+            .menos, .mas { 
+              color: #707070;
+              font-weight: 800;
+              background-color: transparent;
+              width: 5em;
+              height: 2.3em;
+              border-radius: 1.3rem;
+              margin: 0 10px 0 10px;
+              border: none;
+              box-shadow: 6px 6px 14px #dda9b9, -6px -6px 14px #ffcfe3;
+              text-align: center;
+              outline-style: none;
+              text-decoration: none;
+              cursor: pointer;
+            }
+
+            .menos:active, .mas:active { 
+              box-shadow: inset 6px 6px 14px #ca99c9, inset -6px -6px 14px #ffcfff;
+            }
+
+            input { 
+              color: #707070;
+              font-weight: 800;
+              width: 45%;
+              text-align: center;
+              text-decoration-line: underline;
+              outline-style: none;
+              background-color: #EEB4EC;
+              border: 5px solid #EEB4EC;
+              border-radius: 1.3rem;
+              box-shadow: 3px 3px 8px #00000042, -3px -3px 8px #ffffff80, inset 6px 6px 14px #ca99c9, inset -6px -6px 14px #ffcfff;
+            }
+            
+          }
+          
+        }
+
+      }
+
     }
 
     .carrito {
@@ -128,6 +217,19 @@ body {
             transform: scale(0.7);
           }
         }
+      }
+
+        
+      .carrito-cuerpo::-webkit-scrollbar {
+        width: 0.5em;
+      }
+       
+      .carrito-cuerpo::-webkit-scrollbar-track {
+        box-shadow: inset 3px 3px 5px #e5afc0, inset -3px -3px 5px #ffc9dc;
+      }
+       
+      .carrito-cuerpo::-webkit-scrollbar-thumb {
+        background-color: #dba1b2;
       }
 
       .encargarPedido {

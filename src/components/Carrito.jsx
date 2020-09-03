@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 
-const Carrito = ({ carrito, totalDelPedido, quitarDelCarrito }) => (
+const Carrito = ({ carrito, link, totalDelPedido, quitarDelCarrito }) => (
   <section className="carrito">
     <h2> Tu pedido </h2>
     <div className="carrito-cuerpo">
@@ -25,9 +25,9 @@ const Carrito = ({ carrito, totalDelPedido, quitarDelCarrito }) => (
       ))}
     </div>
       <h2>
-        Total <span>$ {totalDelPedido}</span>{" "}
+        Total <span>$ {totalDelPedido}</span>
       </h2>
-      <a className="encargarPedido" href="javascript:viod(0)">
+      <a className="encargarPedido" href={link} target="_blank" rel="noopener noreferrer">
         <span className="whatsapp"> </span> Encargalo!
       </a>
   </section>
@@ -35,6 +35,7 @@ const Carrito = ({ carrito, totalDelPedido, quitarDelCarrito }) => (
 
 const mapStateToProps = (state) => ({
   carrito: state.carrito,
+  link: state.link,
   totalDelPedido: totalDelPedido(state),
 });
 
@@ -50,7 +51,7 @@ const mapDispatchToProps = (dispatch) => ({
       type: "QUITAR_DEL_CARRITO",
       id,
     });
-  },
+  }
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Carrito);
