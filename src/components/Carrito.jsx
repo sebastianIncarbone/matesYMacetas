@@ -30,7 +30,9 @@ const Carrito = ({ carrito, link, totalDelPedido, quitarDelCarrito }) => (
       <a className="encargarPedido" href={link} target="_blank" rel="noopener noreferrer">
         <span className="whatsapp"> </span> Encargalo!
       </a>
+    
   </section>
+
 );
 
 const mapStateToProps = (state) => ({

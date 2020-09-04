@@ -1,6 +1,13 @@
+@import './colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+/**
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Syne', sans-serif;
+**/
 body {
-  background: #f6bcce;
-  color: #707070;
+  background: $secondary;
+  color: $resalt;
 
   main {
     display: flex;
@@ -15,11 +22,13 @@ body {
       width: 60vw;
 
       .encabezado {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
         width: 100%;
         height: 45px;
         border-radius: 0.5em;
-        background: #eeb4ec;
-        box-shadow: 6px 6px 14px #dda9b9, -6px -6px 14px #ffcfe3;
+        background: $primary;
+        box-shadow: 6px 6px 14px $light-first, -6px -6px 14px $light-secondary;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -39,8 +48,8 @@ body {
           overflow: hidden;
           width: 90%;
           border-radius: 0.8em;
-          background: #eeb4ec;
-          box-shadow: 6px 6px 14px #dda9b9, -6px -6px 14px #ffcfe3;
+          background: $primary;
+          box-shadow: 6px 6px 14px $light-first, -6px -6px 14px $light-secondary;
           animation: addCard 1s;
 
           img {
@@ -48,19 +57,23 @@ body {
             height: 120px;
             border-radius: 1.1em;
 						margin: 15px;
-						box-shadow: 3px 3px 8px #00000042, -3px -3px 8px #ffffff80;
+						box-shadow: 3px 3px 8px $primary-first, -3px -3px 8px $primary-secondary;
           }
 
           h3 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
             width: 44%;
             position: absolute;
             top: -10px;
             right: 1em;
             text-align: end;
-            border-bottom: 1px #707070 solid;
+            border-bottom: 1px $resalt solid;
           }
 
           .descripcion {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
             width: 100px;
             position: absolute;
             top: 1.5em;
@@ -69,43 +82,48 @@ body {
           }
 
           .cantidad {
-            font-weight: 800;
             height: 10px;
           }
 
           .cantidadPedida {
 
             .menos, .mas { 
-              color: #707070;
-              font-weight: 800;
+              color: $resalt;
               background-color: transparent;
               width: 5em;
               height: 2.3em;
               border-radius: 1.3rem;
               margin: 0 10px 0 10px;
               border: none;
-              box-shadow: 6px 6px 14px #dda9b9, -6px -6px 14px #ffcfe3;
+              box-shadow: 6px 6px 14px $primary-first, -6px -6px 14px $primary-secondary;
               text-align: center;
               outline-style: none;
               text-decoration: none;
               cursor: pointer;
+
+              span {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 600;
+                font-size: 0.9rem;
+              }
             }
 
             .menos:active, .mas:active { 
-              box-shadow: inset 6px 6px 14px #ca99c9, inset -6px -6px 14px #ffcfff;
+              box-shadow: inset 6px 6px 14px $primary-first, inset -6px -6px 14px $primary-secondary
             }
 
             input { 
-              color: #707070;
+              font-family: 'roboto', sans-serif;
               font-weight: 800;
+              color: $resalt;
               width: 45%;
               text-align: center;
               text-decoration-line: underline;
               outline-style: none;
-              background-color: #EEB4EC;
-              border: 5px solid #EEB4EC;
+              background-color: $primary;
+              border: 5px solid $primary;
               border-radius: 1.3rem;
-              box-shadow: 3px 3px 8px #00000042, -3px -3px 8px #ffffff80, inset 6px 6px 14px #ca99c9, inset -6px -6px 14px #ffcfff;
+              box-shadow: 3px 3px 8px $primary-first, -3px -3px 8px $primary-secondary, inset 6px 6px 14px $rare-first, inset -6px -6px 14px $rare-secondary;
             }
             
           }
@@ -123,10 +141,12 @@ body {
       top: 40px;
       right: 40px;
       border-radius: 1.2em;
-      background: #f6bcce;
-      box-shadow: inset 20px 20px 39px #e5afc0, inset -20px -20px 39px #ffc9dc;
+      background:$secondary;
+      box-shadow: inset 10px 10px 14px $dark-first, inset -10px -10px 14px $dark-secondary;
 
       h2 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
         margin: auto;
         margin-top: 20px;
         display: flex;
@@ -135,8 +155,8 @@ body {
         width: 90%;
         height: 45px;
         border-radius: 0.5em;
-        background: #eeb4ec;
-        box-shadow: 6px 6px 14px #dda9b9, -6px -6px 14px #ffcfe3;
+        background: $primary;
+        box-shadow: 3px 3px 8px $light-first, -3px -3px 8px $light-secondary;
       }
 
       .carrito-cuerpo {
@@ -155,8 +175,8 @@ body {
           overflow: hidden;
           width: 90%;
           border-radius: 0.5em;
-          background: #eeb4ec;
-          box-shadow: 6px 6px 14px #dda9b9, -6px -6px 14px #ffcfe3;
+          background: $primary;
+          box-shadow: 3px 3px 8px $light-first, -3px -3px 8px $light-secondary;
           animation: addCard 1s;
 
           img {
@@ -164,34 +184,39 @@ body {
             height: 90px;
             border-radius: 0.5em;
 						margin: 10px;
-						box-shadow: 3px 3px 8px #00000042, -3px -3px 8px #ffffff80;
+						box-shadow: 3px 3px 8px $primary-first, -3px -3px 8px $primary-secondary;
           }
 
-          h3 {
+          h3 {        
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
             width: 44%;
             position: absolute;
             top: -10px;
             right: 4.9em;
             text-align: start;
-            border-bottom: 1px #707070 solid;
+            border-bottom: 1px $resalt solid;
           }
 
           .detalleCopra {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
             width: 100px;
             position: absolute;
             top: 1.7em;
             right: 5.7em;
             text-align: end;
-            border-bottom: 1px #707070 solid;
+            border-bottom: 1px $resalt solid;
           }
 
           .subtotal {
-            font-size: 1.2rem;
-            font-weight: 700;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 1.1rem;
             width: 44%;
             position: absolute;
-            top: 2.7em;
-            right: 4.8em;
+            top: 3.5em;
+            right: 5.1em;
             display: flex;
             justify-content: space-between;
           }
@@ -199,7 +224,8 @@ body {
           button {
             background-color: transparent;
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='60' height='67' viewBox='0 0 60 67'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23eeb4ec;%7D.b%7Bfilter:url(%23c);%7D.c%7Bfilter:url(%23a);%7D%3C/style%3E%3Cfilter id='a' x='6' y='6' width='55.625' height='61' filterUnits='userSpaceOnUse'%3E%3CfeOffset dx='3' dy='3' input='SourceAlpha'/%3E%3CfeGaussianBlur stdDeviation='3' result='b'/%3E%3CfeFlood flood-opacity='0.651'/%3E%3CfeComposite operator='in' in2='b'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Cfilter id='c' x='0' y='0' width='55.625' height='61' filterUnits='userSpaceOnUse'%3E%3CfeOffset dx='-3' dy='-3' input='SourceAlpha'/%3E%3CfeGaussianBlur stdDeviation='3' result='d'/%3E%3CfeFlood flood-color='%23fff' flood-opacity='0.651'/%3E%3CfeComposite operator='in' in2='d'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3C/defs%3E%3Cg transform='translate(12 12)'%3E%3Cg class='c' transform='matrix(1, 0, 0, 1, -12, -12)'%3E%3Cpath class='a' d='M2.688,38.969A4.031,4.031,0,0,0,6.719,43H30.906a4.031,4.031,0,0,0,4.031-4.031V10.75H2.688Zm22.844-21.5a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0Zm-8.063,0a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0Zm-8.063,0a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0ZM36.281,2.687H26.2l-.789-1.571A2.016,2.016,0,0,0,23.608,0h-9.6a1.992,1.992,0,0,0-1.8,1.117l-.789,1.571H1.344A1.344,1.344,0,0,0,0,4.031V6.719A1.344,1.344,0,0,0,1.344,8.062H36.281a1.344,1.344,0,0,0,1.344-1.344V4.031A1.344,1.344,0,0,0,36.281,2.687Z' transform='translate(12 12)'/%3E%3C/g%3E%3Cg class='b' transform='matrix(1, 0, 0, 1, -12, -12)'%3E%3Cpath class='a' d='M2.688,38.969A4.031,4.031,0,0,0,6.719,43H30.906a4.031,4.031,0,0,0,4.031-4.031V10.75H2.688Zm22.844-21.5a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0Zm-8.063,0a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0Zm-8.063,0a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0ZM36.281,2.687H26.2l-.789-1.571A2.016,2.016,0,0,0,23.608,0h-9.6a1.992,1.992,0,0,0-1.8,1.117l-.789,1.571H1.344A1.344,1.344,0,0,0,0,4.031V6.719A1.344,1.344,0,0,0,1.344,8.062H36.281a1.344,1.344,0,0,0,1.344-1.344V4.031A1.344,1.344,0,0,0,36.281,2.687Z' transform='translate(12 12)'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-            transform: scale(0.7);
+            background-repeat: no-repeat;
+            transform: scale(0.5);
             width: 15%;
             height: 60%;
             position: absolute;
@@ -213,7 +239,8 @@ body {
 
           button:hover {
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='61.625' height='67' viewBox='0 0 61.625 67'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23FF00009f;%7D.b%7Bfilter:url(%23c);%7D.c%7Bfilter:url(%23a);%7D%3C/style%3E%3Cfilter id='a' x='6' y='6' width='55.625' height='61' filterUnits='userSpaceOnUse'%3E%3CfeOffset dx='3' dy='3' input='SourceAlpha'/%3E%3CfeGaussianBlur stdDeviation='3' result='b'/%3E%3CfeFlood flood-opacity='0.651'/%3E%3CfeComposite operator='in' in2='b'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3Cfilter id='c' x='0' y='0' width='55.625' height='61' filterUnits='userSpaceOnUse'%3E%3CfeOffset dx='-3' dy='-3' input='SourceAlpha'/%3E%3CfeGaussianBlur stdDeviation='3' result='d'/%3E%3CfeFlood flood-color='%23fff' flood-opacity='0.651'/%3E%3CfeComposite operator='in' in2='d'/%3E%3CfeComposite in='SourceGraphic'/%3E%3C/filter%3E%3C/defs%3E%3Cg transform='translate(12 12)'%3E%3Cg class='c' transform='matrix(1, 0, 0, 1, -12, -12)'%3E%3Cpath class='a' d='M2.688,38.969A4.031,4.031,0,0,0,6.719,43H30.906a4.031,4.031,0,0,0,4.031-4.031V10.75H2.688Zm22.844-21.5a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0Zm-8.063,0a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0Zm-8.063,0a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0ZM36.281,2.687H26.2l-.789-1.571A2.016,2.016,0,0,0,23.608,0h-9.6a1.992,1.992,0,0,0-1.8,1.117l-.789,1.571H1.344A1.344,1.344,0,0,0,0,4.031V6.719A1.344,1.344,0,0,0,1.344,8.062H36.281a1.344,1.344,0,0,0,1.344-1.344V4.031A1.344,1.344,0,0,0,36.281,2.687Z' transform='translate(12 12)'/%3E%3C/g%3E%3Cg class='b' transform='matrix(1, 0, 0, 1, -12, -12)'%3E%3Cpath class='a' d='M2.688,38.969A4.031,4.031,0,0,0,6.719,43H30.906a4.031,4.031,0,0,0,4.031-4.031V10.75H2.688Zm22.844-21.5a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0Zm-8.063,0a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0Zm-8.063,0a1.344,1.344,0,1,1,2.688,0V36.281a1.344,1.344,0,1,1-2.688,0ZM36.281,2.687H26.2l-.789-1.571A2.016,2.016,0,0,0,23.608,0h-9.6a1.992,1.992,0,0,0-1.8,1.117l-.789,1.571H1.344A1.344,1.344,0,0,0,0,4.031V6.719A1.344,1.344,0,0,0,1.344,8.062H36.281a1.344,1.344,0,0,0,1.344-1.344V4.031A1.344,1.344,0,0,0,36.281,2.687Z' transform='translate(12 12)'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-            transform: scale(0.7);
+            background-repeat: no-repeat;
+            transform: scale(0.5);
           }
         }
       }
@@ -224,11 +251,11 @@ body {
       }
        
       .carrito-cuerpo::-webkit-scrollbar-track {
-        box-shadow: inset 3px 3px 5px #e5afc0, inset -3px -3px 5px #ffc9dc;
+        box-shadow: inset 3px 3px 5px $light-first, inset -3px -3px 5px $light-secondary;
       }
        
       .carrito-cuerpo::-webkit-scrollbar-thumb {
-        background-color: #dba1b2;
+        background-color: $light-first;
       }
 
       .encargarPedido {
@@ -240,10 +267,11 @@ body {
         width: 90%;
         height: 45px;
         border-radius: 0.5em;
-        background: #eeb4ec;
-        box-shadow: 6px 6px 14px #dda9b9, -6px -6px 14px #ffcfe3;
+        background: $primary;
+        box-shadow: 6px 6px 14px $light-first, -6px -6px 14px $light-secondary;
         background-color: #82c91e;
-        color: #fff;
+        color: $resalt;
+        font-family: 'Poppins', sans-serif;
         font-weight: 700;
         font-size: 1.3rem;
 				position: relative;
@@ -265,7 +293,7 @@ body {
       .encargarPedido::before {
 				content: "";
 				border-radius: 0.5em;
-        background-color: #76a136;
+        background-color: #80a842;
         position: absolute;
         left: 0;
         right: 0;
@@ -275,15 +303,35 @@ body {
         transform: scaleX(0);
         transition-property: transform;
         transform-origin: 0% 50%;
-        transition: 300ms ease-out;
+        transition: 500ms ease-out;
       }
 
 			.encargarPedido:hover::before {
 				transform: scaleX(1);
 				transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-			}
+      }
+
+    }
+
+    .carrito-counter {
+      position: absolute;
+      bottom: 1.1em;
+      left: 1.1em;
+      border-radius: 50%;
+      border: 1px solid $resalt;
+      background-color: $primary;
+      width: 4em;
+      height: 4em;
+      
+      span {
+        font-size: 3em;
+        background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='shopping-cart' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512' class='svg-inline--fa fa-shopping-cart fa-w-18 fa-3x'%3E%3Cpath fill='currentColor' d='M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z' class=''%3E%3C/path%3E%3C/svg%3E");
+        transform: scale(0.5);
+      }
+
     }
   }
+        
 }
 
 @keyframes addCard {

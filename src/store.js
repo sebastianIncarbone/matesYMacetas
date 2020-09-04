@@ -54,7 +54,7 @@ const reducerShop = (state = initialState, action) => {
             state.carrito.push(newStateProducto.filter(x=>x.id === action.id)[0]);
         }
         let carrito = [...state.carrito].filter(x=>x.cantidadAComprar > 0);
-        console.log(makeWhatsappLink(carrito));
+
         return {
             ...state,
             productos: newStateProducto,

@@ -18,13 +18,13 @@ const Productos = ({productos, agregarAlCarrito}) => (
                             }
                         </div>
                         <div className="cantidadPedida">
-                            <button className="menos" onClick={()=>agregarAlCarrito(producto.id,-1)}>-</button>
+                            <button className="menos" onClick={()=>agregarAlCarrito(producto.id,-1)}><span>-</span></button>
                             <input type="text" 
                                     className="contadorProducto" 
                                     value={producto.cantidadAComprar}
                                     // onChange={()=>agregarAlCarrito(producto.id, 1)} 
                             />
-                            <button  className="mas" onClick={()=>agregarAlCarrito(producto.id,1)}>+</button>
+                            <button  className="mas" onClick={()=>agregarAlCarrito(producto.id,1)}><span>+</span></button>
                         </div>
                     </article>    
                 ))
