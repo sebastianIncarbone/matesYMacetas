@@ -10,7 +10,7 @@ const Carrito = ({ carrito, link, totalDelPedido, quitarDelCarrito }) => (
           <img src={producto.foto} alt={producto.nombre} />
           <h3>{producto.nombre}</h3>
           <p className="detalleCopra">
-            x {producto.cantidadAComprar} - ${" "}
+            x{producto.cantidadAComprar} - ${" "}
             {producto.obtenerPrecioParaLaCantidadAComprar()}
           </p>
           <p className="subtotal">
@@ -25,7 +25,7 @@ const Carrito = ({ carrito, link, totalDelPedido, quitarDelCarrito }) => (
       ))}
     </div>
       <h2>
-        Total <span>$ {totalDelPedido}</span>
+        Total <span> ${totalDelPedido}</span>
       </h2>
       <a className="encargarPedido" href={link} target="_blank" rel="noopener noreferrer">
         <span className="whatsapp"> </span> Encargalo!

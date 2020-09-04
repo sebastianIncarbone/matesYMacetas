@@ -4,15 +4,19 @@ import { connect } from "react-redux";
 const Carrito = ({ carrito }) => (
   <section>
 
-    <div className="carrito-counter"> <span></span> <i>{carrito}</i></div>
+    <div className="carrito-counter"> <span className="i-carrito"></span> <i>{carrito}</i></div>
     
   </section>
 
 );
 
-const mapStateToProps = (state) => ({
-  carrito: state.carrito.lenght
-});
+const mapStateToProps = (state) => {
+  var cantidadDeCompras = 0;
+  state.carrito.forEach(c=> cantidadDeCompras+= c.can);
+  return ({
+    carrito: cantidadDeCompras
+  })
+};
 
 
 export default connect(mapStateToProps)(Carrito);
