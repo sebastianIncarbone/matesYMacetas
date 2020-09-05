@@ -8,7 +8,7 @@ const Productos = ({ productos, agregarAlCarrito }) => (
     </h2>
     <div className="catalogo-cuerpo">
       {productos
-        .filter((p) => p.foto != null)
+        .filter((p) => p.mostrarEnCatalogo())
         .map((producto) => (
           <article className="producto">
             <div className="img" onClick={()=>window.open(process.env.PUBLIC_URL + producto.foto, "_blank")}>

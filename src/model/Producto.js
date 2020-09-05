@@ -45,4 +45,8 @@ export class Producto {
     resetearCantidad() {
         this.cantidadAComprar = 0;
     }
+
+    mostrarEnCatalogo(){
+        return this.foto != null && this.precios.length > 0 && this.precios[0].monto > 0;
+    }
 }
