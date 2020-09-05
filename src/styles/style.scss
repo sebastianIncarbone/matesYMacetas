@@ -1,10 +1,6 @@
 @import './colors.scss';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
-/**
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Syne', sans-serif;
-**/
+
 body {
   background: $secondary;
   color: $resalt;
@@ -43,7 +39,7 @@ body {
         
         .producto {
           position: relative;
-          margin: auto;
+          margin: 5px auto;
           height: 200px;
           overflow: hidden;
           width: 90%;
@@ -52,16 +48,23 @@ body {
           box-shadow: 6px 6px 14px $light-first, -6px -6px 14px $light-secondary;
           animation: addCard 1s;
 
-          img {
+          .img{
             width: 120px;
             height: 120px;
-            border-radius: 1.1em;
-						margin: 15px;
-						box-shadow: 3px 3px 8px $primary-first, -3px -3px 8px $primary-secondary;
+            margin: 15px;
+            cursor: pointer;
+          
+            img {
+              max-width: 120px;
+              max-height: 120px;
+              border-radius: 1.1em;
+              box-shadow: 3px 3px 8px $primary-first, -3px -3px 8px $primary-secondary;
+            }
           }
 
           h3 {
             font-family: 'Roboto', sans-serif;
+            white-space:nowrap;
             font-weight: 500;
             width: 44%;
             position: absolute;
@@ -179,17 +182,24 @@ body {
           box-shadow: 3px 3px 8px $light-first, -3px -3px 8px $light-secondary;
           animation: addCard 1s;
 
-          img {
+          .img{
             width: 90px;
             height: 90px;
-            border-radius: 0.5em;
-						margin: 10px;
-						box-shadow: 3px 3px 8px $primary-first, -3px -3px 8px $primary-secondary;
+            margin: 15px;
+            cursor: pointer;
+          
+            img {
+              max-width: 90px;
+              max-height: 90px;
+              border-radius: 1.1em;
+              box-shadow: 3px 3px 8px $primary-first, -3px -3px 8px $primary-secondary;
+            }
           }
 
           h3 {        
             font-family: 'Roboto', sans-serif;
             font-weight: 500;
+            white-space:nowrap;
             width: 44%;
             position: absolute;
             top: -10px;

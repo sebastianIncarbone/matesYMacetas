@@ -1,13 +1,19 @@
 import React from "react";
 import { connect } from "react-redux";
 
-const Carrito = ({ carrito, link,cantidadDeCompras, totalDelPedido, quitarDelCarrito }) => {
+const Carrito = ({
+  carrito,
+  link,
+  cantidadDeCompras,
+  totalDelPedido,
+  quitarDelCarrito,
+}) => {
   const ref = React.createRef();
 
   const handleClick = () =>
     ref.current.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
+      behavior: "smooth",
+      block: "start",
     });
 
   return (
@@ -17,7 +23,9 @@ const Carrito = ({ carrito, link,cantidadDeCompras, totalDelPedido, quitarDelCar
         <div className="carrito-cuerpo">
           {carrito.map((producto) => (
             <article className="productoDelCarrito">
-              <img src={producto.foto} alt={producto.nombre} />
+              <div className="img">
+                <img src={producto.foto} alt={producto.nombre} />
+              </div>
               <h3>{producto.nombre}</h3>
               <p className="detalleCopra">
                 x{producto.cantidadAComprar} - ${" "}
@@ -25,7 +33,9 @@ const Carrito = ({ carrito, link,cantidadDeCompras, totalDelPedido, quitarDelCar
               </p>
               <p className="subtotal">
                 subtotal{" "}
-                <span className="subtotal-value">$ {producto.getSubTotal()}</span>
+                <span className="subtotal-value">
+                  $ {producto.getSubTotal()}
+                </span>
               </p>
               <button
                 className="quitarDelCarrito"
@@ -37,23 +47,29 @@ const Carrito = ({ carrito, link,cantidadDeCompras, totalDelPedido, quitarDelCar
         <h2>
           Total <span> ${totalDelPedido}</span>
         </h2>
-        <a className="encargarPedido" href={link} target="_blank" rel="noopener noreferrer">
+        <a
+          className="encargarPedido"
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <span className="whatsapp"> </span> Encargalo!
-      </a>
-
+        </a>
       </section>
 
-      <div className="carrito-counter" onClick={handleClick}> <span className="i-carrito"></span> <i>{cantidadDeCompras}</i></div>
-
+      <div className="carrito-counter" onClick={handleClick}>
+        {" "}
+        <span className="i-carrito"></span> <i>{cantidadDeCompras}</i>
+      </div>
     </>
   );
-}
+};
 
 const mapStateToProps = (state) => ({
   carrito: state.carrito,
   link: state.link,
   totalDelPedido: totalDelPedido(state),
-  cantidadDeCompras: cantidadDeCompras(state)
+  cantidadDeCompras: cantidadDeCompras(state),
 });
 
 const totalDelPedido = (state) => {
@@ -64,17 +80,17 @@ const totalDelPedido = (state) => {
 
 const cantidadDeCompras = (state) => {
   var cantidadDeCompras = 0;
-  state.carrito.forEach(c => cantidadDeCompras += c.cantidadAComprar);
+  state.carrito.forEach((c) => (cantidadDeCompras += c.cantidadAComprar));
   return cantidadDeCompras;
 };
-  
+
 const mapDispatchToProps = (dispatch) => ({
   quitarDelCarrito(id) {
     dispatch({
       type: "QUITAR_DEL_CARRITO",
       id,
     });
-  }
+  },
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Carrito);

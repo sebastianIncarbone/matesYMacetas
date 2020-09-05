@@ -1,11 +1,27 @@
 export class Producto {
 
-    constructor( { id, nombre, foto, precios, cantidadAComprar } ) {
+    // constructor( { id, nombre, foto, precios, cantidadAComprar } ) {
+    //     this.id = id;
+    //     this.nombre = nombre;
+    //     this.foto = foto;
+    //     this.precios = precios;
+    //     this.cantidadAComprar = cantidadAComprar;
+    // }
+
+    constructor({ id, Tipo, Seccion, nombre, foto, precios, cantidadAComprar, Proveedor, costo, Ganancias, ofertas_1, ofertas_5, ofertas_10}){
         this.id = id;
+        this.tipo = Tipo;
+        this.seccion = Seccion;
         this.nombre = nombre;
-        this.foto = foto;
-        this.precios = precios;
+        this.foto = !foto?null:`/assets/${Tipo.toLocaleLowerCase()}/${nombre.replace(/ /g, "")}.${foto.toLocaleLowerCase()}`;
+        this.precios = precios;      
         this.cantidadAComprar = cantidadAComprar;
+        this.proveedor = Proveedor;
+        this.costo = costo;      
+        this.ganancias = Ganancias;
+        this.ofertas_1 = ofertas_1;
+        this.ofertas_5 = ofertas_5;
+        this.ofertas_10 = ofertas_10;
     }
 
     getSubTotal() {
