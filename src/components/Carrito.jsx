@@ -28,13 +28,12 @@ const Carrito = ({
               </div>
               <h3>{producto.nombre}</h3>
               <p className="detalleCopra">
-                x{producto.cantidadAComprar} - ${" "}
-                {producto.obtenerPrecioParaLaCantidadAComprar()}
+                {producto.cantidadAComprar}x ${producto.obtenerPrecioParaLaCantidadAComprar()}
               </p>
               <p className="subtotal">
-                subtotal{" "}
+                Subtotal
                 <span className="subtotal-value">
-                  $ {producto.getSubTotal()}
+                  ${producto.getSubTotal()}
                 </span>
               </p>
               <button
@@ -45,7 +44,7 @@ const Carrito = ({
           ))}
         </div>
         <h2>
-          Total <span> ${totalDelPedido}</span>
+          Total&nbsp;<span>${totalDelPedido}</span>
         </h2>
         <a
           className="encargarPedido"
