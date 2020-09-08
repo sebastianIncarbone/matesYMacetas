@@ -1,13 +1,5 @@
 export class Producto {
 
-    // constructor( { id, nombre, foto, precios, cantidadAComprar } ) {
-    //     this.id = id;
-    //     this.nombre = nombre;
-    //     this.foto = foto;
-    //     this.precios = precios;
-    //     this.cantidadAComprar = cantidadAComprar;
-    // }
-
     constructor({ id, Tipo, Seccion, nombre, foto, precios, cantidadAComprar, Proveedor, costo, Ganancias, ofertas_1, ofertas_5, ofertas_10}){
         this.id = id;
         this.tipo = Tipo;
@@ -28,8 +20,8 @@ export class Producto {
         return this.obtenerPrecioParaLaCantidadAComprar() * this.cantidadAComprar;
     } 
     
-    obtenerPrecioParaLaCantidadAComprar() {
-        let cantidadMinimaDelPrecio = Math.max.apply(null,this.precios.map(p=>p.cantidadMinima).filter( c => this.cantidadAComprar >= c ));
+    obtenerPrecioParaLaCantidadAComprar(cantidadPedida) {
+        let cantidadMinimaDelPrecio = Math.max.apply(null,this.precios.map(p=>p.cantidadMinima).filter( c => cantidadPedida >= c ));
         let precio = this.precios.filter(p=>p.cantidadMinima === cantidadMinimaDelPrecio)[0];
 
         return precio === undefined? 0:precio.monto

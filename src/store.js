@@ -1,6 +1,5 @@
 import { createStore } from 'redux';
 import listadeprecios from './setDeDatos/listaDePrecios.json'
-// import listadeprecios from './setDeDatos/test.json'
 import { Producto } from './model/Producto';
 
 const initialState = {
@@ -8,6 +7,17 @@ const initialState = {
     carrito: [],
     link: ''
 };
+
+const getPrecioPara = (listaDePrecios, listaDePedidos, id) => {
+    let productoPedido = listadeprecios.filter(x=>x.id === id);
+    let productosPedidosDelCombo = listaDePedidos.filter(x=>x.proveedor === productoPedido.proveedor && x.precios === productoPedido.precios);
+
+    let cantidadCompradaPorCombo = productosPedidosDelCombo.reduce((a,b)=> a.cantidadAComprar + b.cantidadAComprar,0);
+
+    let cantidadCompradaPorCombo = productoPedido.obtenerPrecioParaLaCantidadAComprar(cantidadCompradaPorCombo);
+
+    return cantidadCompradaPorCombo *
+}
 
 const editarLaCantidadDeUnProductoDeLaLista = (lista,id,cantidad) => lista.map(producto => {
 
