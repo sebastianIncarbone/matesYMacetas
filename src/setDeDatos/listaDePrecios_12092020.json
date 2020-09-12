@@ -1,0 +1,2977 @@
+[
+  {
+    "nombre": "Stitch",
+    "id": 1,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000001,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000002,
+        "cantidadMinima": 5,
+        "monto": 710
+      },
+      {
+        "id": 10000003,
+        "cantidadMinima": 10,
+        "monto": 640
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000001,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000002,
+        "cantidadMinima": 5,
+        "monto": 630
+      },
+      {
+        "id": 20000003,
+        "cantidadMinima": 10,
+        "monto": 570
+      }
+    ]
+  },
+  {
+    "nombre": "Stitch Con Cuerpo",
+    "id": 2,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000004,
+        "cantidadMinima": 1,
+        "monto": 900
+      },
+      {
+        "id": 10000005,
+        "cantidadMinima": 5,
+        "monto": 880
+      },
+      {
+        "id": 10000006,
+        "cantidadMinima": 10,
+        "monto": 850
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000004,
+        "cantidadMinima": 1,
+        "monto": 800
+      },
+      {
+        "id": 20000005,
+        "cantidadMinima": 5,
+        "monto": 800
+      },
+      {
+        "id": 20000006,
+        "cantidadMinima": 10,
+        "monto": 800
+      }
+    ]
+  },
+  {
+    "nombre": "Ángel",
+    "id": 3,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000007,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000008,
+        "cantidadMinima": 5,
+        "monto": 710
+      },
+      {
+        "id": 10000009,
+        "cantidadMinima": 10,
+        "monto": 650
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000007,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000008,
+        "cantidadMinima": 5,
+        "monto": 630
+      },
+      {
+        "id": 20000009,
+        "cantidadMinima": 10,
+        "monto": 570
+      }
+    ]
+  },
+  {
+    "nombre": "Craneo corazón",
+    "id": 4,
+    "Tipo": "Mate",
+    "Seccion": "Otros",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000010,
+        "cantidadMinima": 1,
+        "monto": 800
+      },
+      {
+        "id": 10000011,
+        "cantidadMinima": 5,
+        "monto": 780
+      },
+      {
+        "id": 10000012,
+        "cantidadMinima": 10,
+        "monto": 760
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000010,
+        "cantidadMinima": 1,
+        "monto": 710
+      },
+      {
+        "id": 20000011,
+        "cantidadMinima": 5,
+        "monto": 710
+      },
+      {
+        "id": 20000012,
+        "cantidadMinima": 10,
+        "monto": 710
+      }
+    ]
+  },
+  {
+    "nombre": "Calavera",
+    "id": 5,
+    "Tipo": "Mate",
+    "Seccion": "Otros",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000013,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 10000014,
+        "cantidadMinima": 5,
+        "monto": 660
+      },
+      {
+        "id": 10000015,
+        "cantidadMinima": 10,
+        "monto": 630
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000013,
+        "cantidadMinima": 1,
+        "monto": 700
+      },
+      {
+        "id": 20000014,
+        "cantidadMinima": 5,
+        "monto": 580
+      },
+      {
+        "id": 20000015,
+        "cantidadMinima": 10,
+        "monto": 520
+      }
+    ]
+  },
+  {
+    "nombre": "Casa Bob Esponja",
+    "id": 6,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000016,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 10000017,
+        "cantidadMinima": 5,
+        "monto": 770
+      },
+      {
+        "id": 10000018,
+        "cantidadMinima": 10,
+        "monto": 750
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000016,
+        "cantidadMinima": 1,
+        "monto": 700
+      },
+      {
+        "id": 20000017,
+        "cantidadMinima": 5,
+        "monto": 700
+      },
+      {
+        "id": 20000018,
+        "cantidadMinima": 10,
+        "monto": 700
+      }
+    ]
+  },
+  {
+    "nombre": "Esfera del dragón",
+    "id": 7,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000019,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 10000020,
+        "cantidadMinima": 5,
+        "monto": 660
+      },
+      {
+        "id": 10000021,
+        "cantidadMinima": 10,
+        "monto": 590
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000019,
+        "cantidadMinima": 1,
+        "monto": 700
+      },
+      {
+        "id": 20000020,
+        "cantidadMinima": 5,
+        "monto": 580
+      },
+      {
+        "id": 20000021,
+        "cantidadMinima": 10,
+        "monto": 520
+      }
+    ]
+  },
+  {
+    "nombre": "Death Star",
+    "id": 8,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000022,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 10000023,
+        "cantidadMinima": 5,
+        "monto": 660
+      },
+      {
+        "id": 10000024,
+        "cantidadMinima": 10,
+        "monto": 590
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000022,
+        "cantidadMinima": 1,
+        "monto": 700
+      },
+      {
+        "id": 20000023,
+        "cantidadMinima": 5,
+        "monto": 580
+      },
+      {
+        "id": 20000024,
+        "cantidadMinima": 10,
+        "monto": 520
+      }
+    ]
+  },
+  {
+    "nombre": "Spider-Man",
+    "id": 9,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000025,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 10000026,
+        "cantidadMinima": 5,
+        "monto": 660
+      },
+      {
+        "id": 10000027,
+        "cantidadMinima": 10,
+        "monto": 590
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000025,
+        "cantidadMinima": 1,
+        "monto": 700
+      },
+      {
+        "id": 20000026,
+        "cantidadMinima": 5,
+        "monto": 580
+      },
+      {
+        "id": 20000027,
+        "cantidadMinima": 10,
+        "monto": 520
+      }
+    ]
+  },
+  {
+    "nombre": "Dead pool",
+    "id": 10,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000028,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 10000029,
+        "cantidadMinima": 5,
+        "monto": 660
+      },
+      {
+        "id": 10000030,
+        "cantidadMinima": 10,
+        "monto": 590
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000028,
+        "cantidadMinima": 1,
+        "monto": 700
+      },
+      {
+        "id": 20000029,
+        "cantidadMinima": 5,
+        "monto": 580
+      },
+      {
+        "id": 20000030,
+        "cantidadMinima": 10,
+        "monto": 520
+      }
+    ]
+  },
+  {
+    "nombre": "Darth Vader",
+    "id": 11,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000031,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 10000032,
+        "cantidadMinima": 5,
+        "monto": 660
+      },
+      {
+        "id": 10000033,
+        "cantidadMinima": 10,
+        "monto": 590
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000031,
+        "cantidadMinima": 1,
+        "monto": 700
+      },
+      {
+        "id": 20000032,
+        "cantidadMinima": 5,
+        "monto": 580
+      },
+      {
+        "id": 20000033,
+        "cantidadMinima": 10,
+        "monto": 520
+      }
+    ]
+  },
+  {
+    "nombre": "Voley",
+    "id": 12,
+    "Tipo": "Mate",
+    "Seccion": "Deportes",
+    "foto": "",
+    "precios": [
+      {
+        "id": 10000034,
+        "cantidadMinima": 1,
+        "monto": 900
+      },
+      {
+        "id": 10000035,
+        "cantidadMinima": 5,
+        "monto": 880
+      },
+      {
+        "id": 10000036,
+        "cantidadMinima": 10,
+        "monto": 890
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000034,
+        "cantidadMinima": 1,
+        "monto": 800
+      },
+      {
+        "id": 20000035,
+        "cantidadMinima": 5,
+        "monto": 800
+      },
+      {
+        "id": 20000036,
+        "cantidadMinima": 10,
+        "monto": 800
+      }
+    ]
+  },
+  {
+    "nombre": "Piston",
+    "id": 13,
+    "Tipo": "Mate",
+    "Seccion": "Otros",
+    "foto": "",
+    "precios": [
+      {
+        "id": 10000037,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 10000038,
+        "cantidadMinima": 5,
+        "monto": 760
+      },
+      {
+        "id": 10000039,
+        "cantidadMinima": 10,
+        "monto": 740
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000037,
+        "cantidadMinima": 1,
+        "monto": 690
+      },
+      {
+        "id": 20000038,
+        "cantidadMinima": 5,
+        "monto": 690
+      },
+      {
+        "id": 20000039,
+        "cantidadMinima": 10,
+        "monto": 690
+      }
+    ]
+  },
+  {
+    "nombre": "Tenis",
+    "id": 14,
+    "Tipo": "Mate",
+    "Seccion": "Deportes",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000040,
+        "cantidadMinima": 1,
+        "monto": 900
+      },
+      {
+        "id": 10000041,
+        "cantidadMinima": 5,
+        "monto": 880
+      },
+      {
+        "id": 10000042,
+        "cantidadMinima": 10,
+        "monto": 560
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000040,
+        "cantidadMinima": 1,
+        "monto": 800
+      },
+      {
+        "id": 20000041,
+        "cantidadMinima": 5,
+        "monto": 800
+      },
+      {
+        "id": 20000042,
+        "cantidadMinima": 10,
+        "monto": 800
+      }
+    ]
+  },
+  {
+    "nombre": "Betty Boop",
+    "id": 15,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000043,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 10000044,
+        "cantidadMinima": 5,
+        "monto": 770
+      },
+      {
+        "id": 10000045,
+        "cantidadMinima": 10,
+        "monto": 750
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000043,
+        "cantidadMinima": 1,
+        "monto": 700
+      },
+      {
+        "id": 20000044,
+        "cantidadMinima": 5,
+        "monto": 700
+      },
+      {
+        "id": 20000045,
+        "cantidadMinima": 10,
+        "monto": 700
+      }
+    ]
+  },
+  {
+    "nombre": "HandBall",
+    "id": 16,
+    "Tipo": "Mate",
+    "Seccion": "Deportes",
+    "foto": "",
+    "precios": [
+      {
+        "id": 10000046,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 10000047,
+        "cantidadMinima": 5,
+        "monto": 750
+      },
+      {
+        "id": 10000048,
+        "cantidadMinima": 10,
+        "monto": 730
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000046,
+        "cantidadMinima": 1,
+        "monto": 680
+      },
+      {
+        "id": 20000047,
+        "cantidadMinima": 5,
+        "monto": 680
+      },
+      {
+        "id": 20000048,
+        "cantidadMinima": 10,
+        "monto": 680
+      }
+    ]
+  },
+  {
+    "nombre": "Jordan",
+    "id": 17,
+    "Tipo": "Mate",
+    "Seccion": "Deportes",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000049,
+        "cantidadMinima": 1,
+        "monto": 900
+      },
+      {
+        "id": 10000050,
+        "cantidadMinima": 5,
+        "monto": 880
+      },
+      {
+        "id": 10000051,
+        "cantidadMinima": 10,
+        "monto": 860
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000049,
+        "cantidadMinima": 1,
+        "monto": 800
+      },
+      {
+        "id": 20000050,
+        "cantidadMinima": 5,
+        "monto": 800
+      },
+      {
+        "id": 20000051,
+        "cantidadMinima": 10,
+        "monto": 800
+      }
+    ]
+  },
+  {
+    "nombre": "Lakers",
+    "id": 18,
+    "Tipo": "Mate",
+    "Seccion": "Deportes",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000052,
+        "cantidadMinima": 1,
+        "monto": 900
+      },
+      {
+        "id": 10000053,
+        "cantidadMinima": 5,
+        "monto": 880
+      },
+      {
+        "id": 10000054,
+        "cantidadMinima": 10,
+        "monto": 860
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000052,
+        "cantidadMinima": 1,
+        "monto": 800
+      },
+      {
+        "id": 20000053,
+        "cantidadMinima": 5,
+        "monto": 800
+      },
+      {
+        "id": 20000054,
+        "cantidadMinima": 10,
+        "monto": 800
+      }
+    ]
+  },
+  {
+    "nombre": "Mafalda",
+    "id": 19,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000055,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 10000056,
+        "cantidadMinima": 5,
+        "monto": 770
+      },
+      {
+        "id": 10000057,
+        "cantidadMinima": 10,
+        "monto": 750
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000055,
+        "cantidadMinima": 1,
+        "monto": 700
+      },
+      {
+        "id": 20000056,
+        "cantidadMinima": 5,
+        "monto": 700
+      },
+      {
+        "id": 20000057,
+        "cantidadMinima": 10,
+        "monto": 700
+      }
+    ]
+  },
+  {
+    "nombre": "Groot enojado",
+    "id": 20,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000058,
+        "cantidadMinima": 1,
+        "monto": 890
+      },
+      {
+        "id": 10000059,
+        "cantidadMinima": 5,
+        "monto": 870
+      },
+      {
+        "id": 10000060,
+        "cantidadMinima": 10,
+        "monto": 850
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000058,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 20000059,
+        "cantidadMinima": 5,
+        "monto": 790
+      },
+      {
+        "id": 20000060,
+        "cantidadMinima": 10,
+        "monto": 790
+      }
+    ]
+  },
+  {
+    "nombre": "Capitan America",
+    "id": 21,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "",
+    "precios": [
+      {
+        "id": 10000061,
+        "cantidadMinima": 1,
+        "monto": 870
+      },
+      {
+        "id": 10000062,
+        "cantidadMinima": 5,
+        "monto": 850
+      },
+      {
+        "id": 10000063,
+        "cantidadMinima": 10,
+        "monto": 830
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000061,
+        "cantidadMinima": 1,
+        "monto": 770
+      },
+      {
+        "id": 20000062,
+        "cantidadMinima": 5,
+        "monto": 770
+      },
+      {
+        "id": 20000063,
+        "cantidadMinima": 10,
+        "monto": 770
+      }
+    ]
+  },
+  {
+    "nombre": "Honguito",
+    "id": 22,
+    "Tipo": "Mate",
+    "Seccion": "Juegos",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000064,
+        "cantidadMinima": 1,
+        "monto": 890
+      },
+      {
+        "id": 10000065,
+        "cantidadMinima": 5,
+        "monto": 870
+      },
+      {
+        "id": 10000066,
+        "cantidadMinima": 10,
+        "monto": 830
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000064,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 20000065,
+        "cantidadMinima": 5,
+        "monto": 790
+      },
+      {
+        "id": 20000066,
+        "cantidadMinima": 10,
+        "monto": 790
+      }
+    ]
+  },
+  {
+    "nombre": "Bomba Mario",
+    "id": 23,
+    "Tipo": "Mate",
+    "Seccion": "Juegos",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000067,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000068,
+        "cantidadMinima": 5,
+        "monto": 830
+      },
+      {
+        "id": 10000069,
+        "cantidadMinima": 10,
+        "monto": 800
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000067,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000068,
+        "cantidadMinima": 5,
+        "monto": 750
+      },
+      {
+        "id": 20000069,
+        "cantidadMinima": 10,
+        "monto": 750
+      }
+    ]
+  },
+  {
+    "nombre": "Rugby",
+    "id": 24,
+    "Tipo": "Mate",
+    "Seccion": "Deportes",
+    "foto": "",
+    "precios": [
+      {
+        "id": 10000070,
+        "cantidadMinima": 1,
+        "monto": 810
+      },
+      {
+        "id": 10000071,
+        "cantidadMinima": 5,
+        "monto": 800
+      },
+      {
+        "id": 10000072,
+        "cantidadMinima": 10,
+        "monto": 770
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000070,
+        "cantidadMinima": 1,
+        "monto": 720
+      },
+      {
+        "id": 20000071,
+        "cantidadMinima": 5,
+        "monto": 720
+      },
+      {
+        "id": 20000072,
+        "cantidadMinima": 10,
+        "monto": 720
+      }
+    ]
+  },
+  {
+    "nombre": "Basquet",
+    "id": 25,
+    "Tipo": "Mate",
+    "Seccion": "Deportes",
+    "foto": "",
+    "precios": [
+      {
+        "id": 10000073,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000074,
+        "cantidadMinima": 5,
+        "monto": 830
+      },
+      {
+        "id": 10000075,
+        "cantidadMinima": 10,
+        "monto": 800
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000073,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000074,
+        "cantidadMinima": 5,
+        "monto": 750
+      },
+      {
+        "id": 20000075,
+        "cantidadMinima": 10,
+        "monto": 750
+      }
+    ]
+  },
+  {
+    "nombre": "Baby Groot",
+    "id": 26,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000076,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000077,
+        "cantidadMinima": 5,
+        "monto": 710
+      },
+      {
+        "id": 10000078,
+        "cantidadMinima": 10,
+        "monto": 650
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000076,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000077,
+        "cantidadMinima": 5,
+        "monto": 630
+      },
+      {
+        "id": 20000078,
+        "cantidadMinima": 10,
+        "monto": 570
+      }
+    ]
+  },
+  {
+    "nombre": "Iron Man",
+    "id": 27,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000079,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000080,
+        "cantidadMinima": 5,
+        "monto": 710
+      },
+      {
+        "id": 10000081,
+        "cantidadMinima": 10,
+        "monto": 650
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000079,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000080,
+        "cantidadMinima": 5,
+        "monto": 630
+      },
+      {
+        "id": 20000081,
+        "cantidadMinima": 10,
+        "monto": 570
+      }
+    ]
+  },
+  {
+    "nombre": "Snitch Dorada",
+    "id": 28,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000082,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000083,
+        "cantidadMinima": 5,
+        "monto": 710
+      },
+      {
+        "id": 10000084,
+        "cantidadMinima": 10,
+        "monto": 650
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000082,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000083,
+        "cantidadMinima": 5,
+        "monto": 630
+      },
+      {
+        "id": 20000084,
+        "cantidadMinima": 10,
+        "monto": 570
+      }
+    ]
+  },
+  {
+    "nombre": "Pikachu",
+    "id": 29,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000085,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000086,
+        "cantidadMinima": 5,
+        "monto": 710
+      },
+      {
+        "id": 10000087,
+        "cantidadMinima": 10,
+        "monto": 650
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000085,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000086,
+        "cantidadMinima": 5,
+        "monto": 630
+      },
+      {
+        "id": 20000087,
+        "cantidadMinima": 10,
+        "monto": 570
+      }
+    ]
+  },
+  {
+    "nombre": "Pokebola",
+    "id": 30,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000088,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 10000089,
+        "cantidadMinima": 5,
+        "monto": 780
+      },
+      {
+        "id": 10000090,
+        "cantidadMinima": 10,
+        "monto": 750
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000088,
+        "cantidadMinima": 1,
+        "monto": 700
+      },
+      {
+        "id": 20000089,
+        "cantidadMinima": 5,
+        "monto": 700
+      },
+      {
+        "id": 20000090,
+        "cantidadMinima": 10,
+        "monto": 700
+      }
+    ]
+  },
+  {
+    "nombre": "Chimuelo",
+    "id": 31,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000091,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000092,
+        "cantidadMinima": 5,
+        "monto": 710
+      },
+      {
+        "id": 10000093,
+        "cantidadMinima": 10,
+        "monto": 650
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000091,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000092,
+        "cantidadMinima": 5,
+        "monto": 630
+      },
+      {
+        "id": 20000093,
+        "cantidadMinima": 10,
+        "monto": 570
+      }
+    ]
+  },
+  {
+    "nombre": "Bob Esponja",
+    "id": 32,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000094,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000095,
+        "cantidadMinima": 5,
+        "monto": 710
+      },
+      {
+        "id": 10000096,
+        "cantidadMinima": 10,
+        "monto": 650
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000094,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000095,
+        "cantidadMinima": 5,
+        "monto": 630
+      },
+      {
+        "id": 20000096,
+        "cantidadMinima": 10,
+        "monto": 570
+      }
+    ]
+  },
+  {
+    "nombre": "Equipos de fútbol",
+    "id": 33,
+    "Tipo": "Mate",
+    "Seccion": "Deportes",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000097,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000098,
+        "cantidadMinima": 5,
+        "monto": 710
+      },
+      {
+        "id": 10000099,
+        "cantidadMinima": 10,
+        "monto": 650
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000097,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000098,
+        "cantidadMinima": 5,
+        "monto": 630
+      },
+      {
+        "id": 20000099,
+        "cantidadMinima": 10,
+        "monto": 570
+      }
+    ]
+  },
+  {
+    "nombre": "Bull Dog",
+    "id": 34,
+    "Tipo": "Mate",
+    "Seccion": "Otros",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000100,
+        "cantidadMinima": 1,
+        "monto": 810
+      },
+      {
+        "id": 10000101,
+        "cantidadMinima": 5,
+        "monto": 800
+      },
+      {
+        "id": 10000102,
+        "cantidadMinima": 10,
+        "monto": 770
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000100,
+        "cantidadMinima": 1,
+        "monto": 720
+      },
+      {
+        "id": 20000101,
+        "cantidadMinima": 5,
+        "monto": 720
+      },
+      {
+        "id": 20000102,
+        "cantidadMinima": 10,
+        "monto": 720
+      }
+    ]
+  },
+  {
+    "nombre": "Harry Potter",
+    "id": 35,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000103,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 10000104,
+        "cantidadMinima": 5,
+        "monto": 770
+      },
+      {
+        "id": 10000105,
+        "cantidadMinima": 10,
+        "monto": 750
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000103,
+        "cantidadMinima": 1,
+        "monto": 700
+      },
+      {
+        "id": 20000104,
+        "cantidadMinima": 5,
+        "monto": 700
+      },
+      {
+        "id": 20000105,
+        "cantidadMinima": 10,
+        "monto": 700
+      }
+    ]
+  },
+  {
+    "nombre": "Chanchito",
+    "id": 36,
+    "Tipo": "Mate",
+    "Seccion": "Otros",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000106,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 10000107,
+        "cantidadMinima": 5,
+        "monto": 750
+      },
+      {
+        "id": 10000108,
+        "cantidadMinima": 10,
+        "monto": 730
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000106,
+        "cantidadMinima": 1,
+        "monto": 680
+      },
+      {
+        "id": 20000107,
+        "cantidadMinima": 5,
+        "monto": 680
+      },
+      {
+        "id": 20000108,
+        "cantidadMinima": 10,
+        "monto": 680
+      }
+    ]
+  },
+  {
+    "nombre": "Lego",
+    "id": 37,
+    "Tipo": "Mate",
+    "Seccion": "Juegos",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000109,
+        "cantidadMinima": 1,
+        "monto": 900
+      },
+      {
+        "id": 10000110,
+        "cantidadMinima": 5,
+        "monto": 880
+      },
+      {
+        "id": 10000111,
+        "cantidadMinima": 10,
+        "monto": 860
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000109,
+        "cantidadMinima": 1,
+        "monto": 800
+      },
+      {
+        "id": 20000110,
+        "cantidadMinima": 5,
+        "monto": 800
+      },
+      {
+        "id": 20000111,
+        "cantidadMinima": 10,
+        "monto": 800
+      }
+    ]
+  },
+  {
+    "nombre": "Minion",
+    "id": 38,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000112,
+        "cantidadMinima": 1,
+        "monto": 890
+      },
+      {
+        "id": 10000113,
+        "cantidadMinima": 5,
+        "monto": 880
+      },
+      {
+        "id": 10000114,
+        "cantidadMinima": 10,
+        "monto": 850
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000112,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 20000113,
+        "cantidadMinima": 5,
+        "monto": 790
+      },
+      {
+        "id": 20000114,
+        "cantidadMinima": 10,
+        "monto": 790
+      }
+    ]
+  },
+  {
+    "nombre": "Mickey",
+    "id": 39,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000115,
+        "cantidadMinima": 1,
+        "monto": 900
+      },
+      {
+        "id": 10000116,
+        "cantidadMinima": 5,
+        "monto": 880
+      },
+      {
+        "id": 10000117,
+        "cantidadMinima": 10,
+        "monto": 850
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000115,
+        "cantidadMinima": 1,
+        "monto": 800
+      },
+      {
+        "id": 20000116,
+        "cantidadMinima": 5,
+        "monto": 800
+      },
+      {
+        "id": 20000117,
+        "cantidadMinima": 10,
+        "monto": 800
+      }
+    ]
+  },
+  {
+    "nombre": "Mickey Pantalon",
+    "id": 40,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000118,
+        "cantidadMinima": 1,
+        "monto": 900
+      },
+      {
+        "id": 10000119,
+        "cantidadMinima": 5,
+        "monto": 880
+      },
+      {
+        "id": 10000120,
+        "cantidadMinima": 10,
+        "monto": 850
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000118,
+        "cantidadMinima": 1,
+        "monto": 800
+      },
+      {
+        "id": 20000119,
+        "cantidadMinima": 5,
+        "monto": 800
+      },
+      {
+        "id": 20000120,
+        "cantidadMinima": 10,
+        "monto": 800
+      }
+    ]
+  },
+  {
+    "nombre": "Frida",
+    "id": 41,
+    "Tipo": "Mate",
+    "Seccion": "Otros",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000121,
+        "cantidadMinima": 1,
+        "monto": 900
+      },
+      {
+        "id": 10000122,
+        "cantidadMinima": 5,
+        "monto": 770
+      },
+      {
+        "id": 10000123,
+        "cantidadMinima": 10,
+        "monto": 710
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000121,
+        "cantidadMinima": 1,
+        "monto": 800
+      },
+      {
+        "id": 20000122,
+        "cantidadMinima": 5,
+        "monto": 680
+      },
+      {
+        "id": 20000123,
+        "cantidadMinima": 10,
+        "monto": 630
+      }
+    ]
+  },
+  {
+    "nombre": "Homero",
+    "id": 42,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000124,
+        "cantidadMinima": 1,
+        "monto": 900
+      },
+      {
+        "id": 10000125,
+        "cantidadMinima": 5,
+        "monto": 770
+      },
+      {
+        "id": 10000126,
+        "cantidadMinima": 10,
+        "monto": 710
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000124,
+        "cantidadMinima": 1,
+        "monto": 800
+      },
+      {
+        "id": 20000125,
+        "cantidadMinima": 5,
+        "monto": 680
+      },
+      {
+        "id": 20000126,
+        "cantidadMinima": 10,
+        "monto": 630
+      }
+    ]
+  },
+  {
+    "nombre": "Batman",
+    "id": 43,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000127,
+        "cantidadMinima": 1,
+        "monto": 900
+      },
+      {
+        "id": 10000128,
+        "cantidadMinima": 5,
+        "monto": 770
+      },
+      {
+        "id": 10000129,
+        "cantidadMinima": 10,
+        "monto": 710
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000127,
+        "cantidadMinima": 1,
+        "monto": 800
+      },
+      {
+        "id": 20000128,
+        "cantidadMinima": 5,
+        "monto": 680
+      },
+      {
+        "id": 20000129,
+        "cantidadMinima": 10,
+        "monto": 630
+      }
+    ]
+  },
+  {
+    "nombre": "Stormtrooper",
+    "id": 44,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000130,
+        "cantidadMinima": 1,
+        "monto": 900
+      },
+      {
+        "id": 10000131,
+        "cantidadMinima": 5,
+        "monto": 770
+      },
+      {
+        "id": 10000132,
+        "cantidadMinima": 10,
+        "monto": 710
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000130,
+        "cantidadMinima": 1,
+        "monto": 800
+      },
+      {
+        "id": 20000131,
+        "cantidadMinima": 5,
+        "monto": 680
+      },
+      {
+        "id": 20000132,
+        "cantidadMinima": 10,
+        "monto": 630
+      }
+    ]
+  },
+  {
+    "nombre": "Sonic",
+    "id": 45,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000133,
+        "cantidadMinima": 1,
+        "monto": 890
+      },
+      {
+        "id": 10000134,
+        "cantidadMinima": 5,
+        "monto": 860
+      },
+      {
+        "id": 10000135,
+        "cantidadMinima": 10,
+        "monto": 830
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000133,
+        "cantidadMinima": 1,
+        "monto": 780
+      },
+      {
+        "id": 20000134,
+        "cantidadMinima": 5,
+        "monto": 780
+      },
+      {
+        "id": 20000135,
+        "cantidadMinima": 10,
+        "monto": 780
+      }
+    ]
+  },
+  {
+    "nombre": "Jack",
+    "id": 46,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000136,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000137,
+        "cantidadMinima": 5,
+        "monto": 830
+      },
+      {
+        "id": 10000138,
+        "cantidadMinima": 10,
+        "monto": 800
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000136,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000137,
+        "cantidadMinima": 5,
+        "monto": 750
+      },
+      {
+        "id": 20000138,
+        "cantidadMinima": 10,
+        "monto": 750
+      }
+    ]
+  },
+  {
+    "nombre": "TikTok",
+    "id": 47,
+    "Tipo": "Mate",
+    "Seccion": "Otros",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000139,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000140,
+        "cantidadMinima": 5,
+        "monto": 830
+      },
+      {
+        "id": 10000141,
+        "cantidadMinima": 10,
+        "monto": 800
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000139,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000140,
+        "cantidadMinima": 5,
+        "monto": 750
+      },
+      {
+        "id": 20000141,
+        "cantidadMinima": 10,
+        "monto": 750
+      }
+    ]
+  },
+  {
+    "nombre": "Hellow Kitty",
+    "id": 48,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000142,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 10000143,
+        "cantidadMinima": 5,
+        "monto": 780
+      },
+      {
+        "id": 10000144,
+        "cantidadMinima": 10,
+        "monto": 750
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000142,
+        "cantidadMinima": 1,
+        "monto": 700
+      },
+      {
+        "id": 20000143,
+        "cantidadMinima": 5,
+        "monto": 700
+      },
+      {
+        "id": 20000144,
+        "cantidadMinima": 10,
+        "monto": 700
+      }
+    ]
+  },
+  {
+    "nombre": "Gatito",
+    "id": 49,
+    "Tipo": "Mate",
+    "Seccion": "Otros",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000145,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000146,
+        "cantidadMinima": 5,
+        "monto": 830
+      },
+      {
+        "id": 10000147,
+        "cantidadMinima": 10,
+        "monto": 800
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000145,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000146,
+        "cantidadMinima": 5,
+        "monto": 750
+      },
+      {
+        "id": 20000147,
+        "cantidadMinima": 10,
+        "monto": 750
+      }
+    ]
+  },
+  {
+    "nombre": "Marshmello",
+    "id": 50,
+    "Tipo": "Mate",
+    "Seccion": "Juegos",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000148,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000149,
+        "cantidadMinima": 5,
+        "monto": 830
+      },
+      {
+        "id": 10000150,
+        "cantidadMinima": 10,
+        "monto": 800
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000148,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000149,
+        "cantidadMinima": 5,
+        "monto": 750
+      },
+      {
+        "id": 20000150,
+        "cantidadMinima": 10,
+        "monto": 750
+      }
+    ]
+  },
+  {
+    "nombre": "Caja Mario Bros",
+    "id": 51,
+    "Tipo": "Mate",
+    "Seccion": "Juegos",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000151,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000152,
+        "cantidadMinima": 5,
+        "monto": 830
+      },
+      {
+        "id": 10000153,
+        "cantidadMinima": 10,
+        "monto": 800
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000151,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000152,
+        "cantidadMinima": 5,
+        "monto": 750
+      },
+      {
+        "id": 20000153,
+        "cantidadMinima": 10,
+        "monto": 750
+      }
+    ]
+  },
+  {
+    "nombre": "Baseball",
+    "id": 52,
+    "Tipo": "Mate",
+    "Seccion": "Deportes",
+    "foto": "",
+    "precios": [
+      {
+        "id": 10000154,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 10000155,
+        "cantidadMinima": 5,
+        "monto": 740
+      },
+      {
+        "id": 10000156,
+        "cantidadMinima": 10,
+        "monto": 720
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000154,
+        "cantidadMinima": 1,
+        "monto": 670
+      },
+      {
+        "id": 20000155,
+        "cantidadMinima": 5,
+        "monto": 670
+      },
+      {
+        "id": 20000156,
+        "cantidadMinima": 10,
+        "monto": 670
+      }
+    ]
+  },
+  {
+    "nombre": "Pato Donald",
+    "id": 53,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "",
+    "precios": [
+      {
+        "id": 10000157,
+        "cantidadMinima": 1,
+        "monto": 890
+      },
+      {
+        "id": 10000158,
+        "cantidadMinima": 5,
+        "monto": 860
+      },
+      {
+        "id": 10000159,
+        "cantidadMinima": 10,
+        "monto": 840
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000157,
+        "cantidadMinima": 1,
+        "monto": 780
+      },
+      {
+        "id": 20000158,
+        "cantidadMinima": 5,
+        "monto": 780
+      },
+      {
+        "id": 20000159,
+        "cantidadMinima": 10,
+        "monto": 780
+      }
+    ]
+  },
+  {
+    "nombre": "Rugby pelota",
+    "id": 54,
+    "Tipo": "Mate",
+    "Seccion": "Deportes",
+    "foto": "",
+    "precios": [
+      {
+        "id": 10000160,
+        "cantidadMinima": 1,
+        "monto": 810
+      },
+      {
+        "id": 10000161,
+        "cantidadMinima": 5,
+        "monto": 800
+      },
+      {
+        "id": 10000162,
+        "cantidadMinima": 10,
+        "monto": 770
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000160,
+        "cantidadMinima": 1,
+        "monto": 720
+      },
+      {
+        "id": 20000161,
+        "cantidadMinima": 5,
+        "monto": 720
+      },
+      {
+        "id": 20000162,
+        "cantidadMinima": 10,
+        "monto": 720
+      }
+    ]
+  },
+  {
+    "nombre": "Con textura",
+    "id": 55,
+    "Tipo": "Mate",
+    "Seccion": "Otros",
+    "foto": "",
+    "precios": [
+      {
+        "id": 10000163,
+        "cantidadMinima": 1,
+        "monto": 890
+      },
+      {
+        "id": 10000164,
+        "cantidadMinima": 5,
+        "monto": 860
+      },
+      {
+        "id": 10000165,
+        "cantidadMinima": 10,
+        "monto": 840
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000163,
+        "cantidadMinima": 1,
+        "monto": 780
+      },
+      {
+        "id": 20000164,
+        "cantidadMinima": 5,
+        "monto": 780
+      },
+      {
+        "id": 20000165,
+        "cantidadMinima": 10,
+        "monto": 780
+      }
+    ]
+  },
+  {
+    "nombre": "Camara de fotos",
+    "id": 56,
+    "Tipo": "Mate",
+    "Seccion": "Otros",
+    "foto": "",
+    "precios": [
+      {
+        "id": 10000166,
+        "cantidadMinima": 1,
+        "monto": 890
+      },
+      {
+        "id": 10000167,
+        "cantidadMinima": 5,
+        "monto": 860
+      },
+      {
+        "id": 10000168,
+        "cantidadMinima": 10,
+        "monto": 840
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000166,
+        "cantidadMinima": 1,
+        "monto": 780
+      },
+      {
+        "id": 20000167,
+        "cantidadMinima": 5,
+        "monto": 780
+      },
+      {
+        "id": 20000168,
+        "cantidadMinima": 10,
+        "monto": 780
+      }
+    ]
+  },
+  {
+    "nombre": "Groot pensando",
+    "id": 57,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "",
+    "precios": [
+      {
+        "id": 10000169,
+        "cantidadMinima": 1,
+        "monto": 890
+      },
+      {
+        "id": 10000170,
+        "cantidadMinima": 5,
+        "monto": 870
+      },
+      {
+        "id": 10000171,
+        "cantidadMinima": 10,
+        "monto": 840
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000169,
+        "cantidadMinima": 1,
+        "monto": 790
+      },
+      {
+        "id": 20000170,
+        "cantidadMinima": 5,
+        "monto": 790
+      },
+      {
+        "id": 20000171,
+        "cantidadMinima": 10,
+        "monto": 790
+      }
+    ]
+  },
+  {
+    "nombre": "Hellow Kitty Cuerpo",
+    "id": 58,
+    "Tipo": "Mate",
+    "Seccion": "Peliculas/Series",
+    "foto": "",
+    "precios": [
+      {
+        "id": 10000172,
+        "cantidadMinima": 1,
+        "monto": 850
+      },
+      {
+        "id": 10000173,
+        "cantidadMinima": 5,
+        "monto": 830
+      },
+      {
+        "id": 10000174,
+        "cantidadMinima": 10,
+        "monto": 800
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Andrea",
+    "costo": [
+      {
+        "id": 20000172,
+        "cantidadMinima": 1,
+        "monto": 750
+      },
+      {
+        "id": 20000173,
+        "cantidadMinima": 5,
+        "monto": 750
+      },
+      {
+        "id": 20000174,
+        "cantidadMinima": 10,
+        "monto": 750
+      }
+    ]
+  },
+  {
+    "nombre": "Robert",
+    "id": 59,
+    "Tipo": "Maceta",
+    "Seccion": "Otros",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000175,
+        "cantidadMinima": 1,
+        "monto": 350
+      },
+      {
+        "id": 10000176,
+        "cantidadMinima": 6,
+        "monto": 300
+      },
+      {
+        "id": 10000177,
+        "cantidadMinima": 25,
+        "monto": 280
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000175,
+        "cantidadMinima": 1,
+        "monto": 280
+      },
+      {
+        "id": 20000176,
+        "cantidadMinima": 6,
+        "monto": 250
+      },
+      {
+        "id": 20000177,
+        "cantidadMinima": 25,
+        "monto": 230
+      }
+    ]
+  },
+  {
+    "nombre": "Elefante",
+    "id": 60,
+    "Tipo": "Maceta",
+    "Seccion": "Animales",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000178,
+        "cantidadMinima": 1,
+        "monto": 400
+      },
+      {
+        "id": 10000179,
+        "cantidadMinima": 6,
+        "monto": 350
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000178,
+        "cantidadMinima": 1,
+        "monto": 250
+      }
+    ]
+  },
+  {
+    "nombre": "Calavera",
+    "id": 61,
+    "Tipo": "Maceta",
+    "Seccion": "Otros",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000181,
+        "cantidadMinima": 1,
+        "monto": 400
+      },
+      {
+        "id": 10000182,
+        "cantidadMinima": 6,
+        "monto": 350
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000181,
+        "cantidadMinima": 1,
+        "monto": 250
+      }
+    ]
+  },
+  {
+    "nombre": "Pulpo",
+    "id": 62,
+    "Tipo": "Maceta",
+    "Seccion": "Animales",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000184,
+        "cantidadMinima": 1,
+        "monto": 400
+      },
+      {
+        "id": 10000185,
+        "cantidadMinima": 6,
+        "monto": 350
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000184,
+        "cantidadMinima": 1,
+        "monto": 250
+      }
+    ]
+  },
+  {
+    "nombre": "Torre",
+    "id": 63,
+    "Tipo": "Maceta",
+    "Seccion": "Otros",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000187,
+        "cantidadMinima": 1,
+        "monto": 400
+      },
+      {
+        "id": 10000188,
+        "cantidadMinima": 6,
+        "monto": 350
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000187,
+        "cantidadMinima": 1,
+        "monto": 250
+      }
+    ]
+  },
+  {
+    "nombre": "PacMan",
+    "id": 64,
+    "Tipo": "Maceta",
+    "Seccion": "Juegos",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000190,
+        "cantidadMinima": 1,
+        "monto": 400
+      },
+      {
+        "id": 10000191,
+        "cantidadMinima": 6,
+        "monto": 350
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000190,
+        "cantidadMinima": 1,
+        "monto": 250
+      }
+    ]
+  },
+  {
+    "nombre": "Ballena",
+    "id": 65,
+    "Tipo": "Maceta",
+    "Seccion": "Animales",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000193,
+        "cantidadMinima": 1,
+        "monto": 400
+      },
+      {
+        "id": 10000194,
+        "cantidadMinima": 6,
+        "monto": 350
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000193,
+        "cantidadMinima": 1,
+        "monto": 250
+      }
+    ]
+  },
+  {
+    "nombre": "Groot paradito",
+    "id": 66,
+    "Tipo": "Maceta",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000196,
+        "cantidadMinima": 1,
+        "monto": 300
+      },
+      {
+        "id": 10000197,
+        "cantidadMinima": 6,
+        "monto": 250
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000196,
+        "cantidadMinima": 1,
+        "monto": 160
+      }
+    ]
+  },
+  {
+    "nombre": "Groot 11 cm",
+    "id": 67,
+    "Tipo": "Maceta",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000199,
+        "cantidadMinima": 1,
+        "monto": 480
+      },
+      {
+        "id": 10000200,
+        "cantidadMinima": 6,
+        "monto": 430
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000199,
+        "cantidadMinima": 1,
+        "monto": 320
+      }
+    ]
+  },
+  {
+    "nombre": "Groot pensando 13 cm",
+    "id": 68,
+    "Tipo": "Maceta",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000202,
+        "cantidadMinima": 1,
+        "monto": 500
+      },
+      {
+        "id": 10000203,
+        "cantidadMinima": 6,
+        "monto": 450
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000202,
+        "cantidadMinima": 1,
+        "monto": 400
+      }
+    ]
+  },
+  {
+    "nombre": "Groot pensando 10 cm",
+    "id": 69,
+    "Tipo": "Maceta",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000205,
+        "cantidadMinima": 1,
+        "monto": 400
+      },
+      {
+        "id": 10000206,
+        "cantidadMinima": 6,
+        "monto": 350
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000205,
+        "cantidadMinima": 1,
+        "monto": 300
+      }
+    ]
+  },
+  {
+    "nombre": "Groot saludando 15 cm",
+    "id": 70,
+    "Tipo": "Maceta",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000208,
+        "cantidadMinima": 1,
+        "monto": 500
+      },
+      {
+        "id": 10000209,
+        "cantidadMinima": 6,
+        "monto": 450
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000208,
+        "cantidadMinima": 1,
+        "monto": 400
+      }
+    ]
+  },
+  {
+    "nombre": "Groot saludando 10 cm",
+    "id": 71,
+    "Tipo": "Maceta",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000211,
+        "cantidadMinima": 1,
+        "monto": 350
+      },
+      {
+        "id": 10000212,
+        "cantidadMinima": 6,
+        "monto": 300
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000211,
+        "cantidadMinima": 1,
+        "monto": 250
+      }
+    ]
+  },
+  {
+    "nombre": "Groot sentado 10 cm",
+    "id": 72,
+    "Tipo": "Maceta",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000214,
+        "cantidadMinima": 1,
+        "monto": 350
+      },
+      {
+        "id": 10000215,
+        "cantidadMinima": 6,
+        "monto": 300
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000214,
+        "cantidadMinima": 1,
+        "monto": 250
+      }
+    ]
+  },
+  {
+    "nombre": "Groot sentado 15 cm",
+    "id": 73,
+    "Tipo": "Maceta",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000217,
+        "cantidadMinima": 1,
+        "monto": 500
+      },
+      {
+        "id": 10000218,
+        "cantidadMinima": 6,
+        "monto": 450
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000217,
+        "cantidadMinima": 1,
+        "monto": 400
+      }
+    ]
+  },
+  {
+    "nombre": "Combo groot",
+    "id": 74,
+    "Tipo": "Maceta",
+    "Seccion": "Peliculas/Series",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000220,
+        "cantidadMinima": 1,
+        "monto": 2000
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000220,
+        "cantidadMinima": 1,
+        "monto": 1690
+      }
+    ]
+  },
+  {
+    "nombre": "Plantitas",
+    "id": 75,
+    "Tipo": "Maceta",
+    "Seccion": "Otros",
+    "foto": "Jpeg",
+    "precios": [
+      {
+        "id": 10000223,
+        "cantidadMinima": 1,
+        "monto": 100
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Maria",
+    "costo": [
+      {
+        "id": 20000223,
+        "cantidadMinima": 1,
+        "monto": 60
+      }
+    ]
+  }
+]

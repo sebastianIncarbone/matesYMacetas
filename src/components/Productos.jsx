@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 const Productos = ({ productos, agregarAlCarrito }) => (
   <section className="catalogo">
     <h2 className="encabezado">
-      Mates y Macetas <i className="aclaracion">Catalogo</i>{" "}
+      Mates y Macetas <i className="aclaracion">Catálogo</i>{" "}
     </h2>
     <div className="catalogo-cuerpo">
       {productos
@@ -21,7 +21,7 @@ const Productos = ({ productos, agregarAlCarrito }) => (
             <div className="descripcion">
               {producto.precios.map((precio) => (
                 <p className="cantidad">
-                  {precio.cantidadMinima} x $ {precio.monto}{" "}
+                  {precio.cantidadMinima}x ${precio.monto} c/u 
                 </p>
               ))}
             </div>

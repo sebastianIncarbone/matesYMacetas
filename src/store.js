@@ -1,5 +1,5 @@
 import { createStore } from 'redux';
-import listadeprecios from './setDeDatos/listaDePrecios.json'
+import listadeprecios from './setDeDatos/listaDePrecios_12092020.json'
 // import listadeprecios from './setDeDatos/test.json'
 import { Producto } from './model/Producto';
 
