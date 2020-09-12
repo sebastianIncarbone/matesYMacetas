@@ -24,7 +24,7 @@ const Carrito = ({
           {carrito.map((producto) => (
             <article className="productoDelCarrito">
               <div className="img">
-                <img src={producto.foto} alt={producto.nombre} />
+                <img src={process.env.PUBLIC_URL + producto.foto} alt={producto.nombre} />
               </div>
               <h3>{producto.nombre}</h3>
               <p className="detalleCopra">
