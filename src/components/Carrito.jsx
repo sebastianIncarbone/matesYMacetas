@@ -28,8 +28,7 @@ const Carrito = ({
               </div>
               <h3>{producto.nombre}</h3>
               <p className="detalleCopra">
-                x{producto.cantidadAComprar} - ${" "}
-                {producto.obtenerPrecioParaLaCantidadAComprar()}
+                x{producto.cantidadAComprar} - $ {producto.precioDeCompra}
               </p>
               <p className="subtotal">
                 subtotal{" "}
