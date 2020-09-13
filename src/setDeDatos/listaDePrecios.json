@@ -2,8 +2,8 @@
     {
       "id": 3,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
-      "nombre": "Angel",
+      "Seccion": "Películas/Series",
+      "nombre": "Ángel",
       "foto": "Jpeg",
       "precios": [
          {
@@ -49,7 +49,7 @@
     {
       "id": 26,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Baby Groot",
       "foto": "Jpeg",
       "precios": [
@@ -190,7 +190,7 @@
     {
       "id": 43,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Batman",
       "foto": "Jpeg",
       "precios": [
@@ -237,7 +237,7 @@
     {
       "id": 15,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Betty Boop",
       "foto": "Jpeg",
       "precios": [
@@ -284,8 +284,8 @@
     {
       "id": 32,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
-      "nombre": "Bob Sponja",
+      "Seccion": "Películas/Series",
+      "nombre": "Bob Esponja",
       "foto": "Jpeg",
       "precios": [
          {
@@ -473,7 +473,7 @@
       "id": 5,
       "Tipo": "Mate",
       "Seccion": "Otros",
-      "nombre": "Calabera",
+      "nombre": "Calavera",
       "foto": "Jpeg",
       "precios": [
          {
@@ -566,7 +566,7 @@
     {
       "id": 21,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Capitan America",
       "foto": "",
       "precios": [
@@ -613,8 +613,8 @@
     {
       "id": 6,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
-      "nombre": "Casa bob espoja",
+      "Seccion": "Películas/Series",
+      "nombre": "Casa Bob Esponja",
       "foto": "Jpeg",
       "precios": [
          {
@@ -707,7 +707,7 @@
     {
       "id": 31,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Chimuelo",
       "foto": "Jpeg",
       "precios": [
@@ -802,7 +802,7 @@
       "id": 4,
       "Tipo": "Mate",
       "Seccion": "Otros",
-      "nombre": "Craneo corazon",
+      "nombre": "Craneo corazón",
       "foto": "Jpeg",
       "precios": [
          {
@@ -848,8 +848,8 @@
     {
       "id": 11,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
-      "nombre": "Dardh Vader",
+      "Seccion": "Películas/Series",
+      "nombre": "Darth Vader",
       "foto": "Jpeg",
       "precios": [
          {
@@ -895,8 +895,8 @@
     {
       "id": 10,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
-      "nombre": "Dead pool",
+      "Seccion": "Películas/Series",
+      "nombre": "Deadpool",
       "foto": "Jpeg",
       "precios": [
          {
@@ -943,7 +943,7 @@
       "id": 33,
       "Tipo": "Mate",
       "Seccion": "Deportes",
-      "nombre": "Equipos de futbol",
+      "nombre": "Equipos de fútbol",
       "foto": "Jpeg",
       "precios": [
          {
@@ -989,8 +989,8 @@
     {
       "id": 7,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
-      "nombre": "Esfera del dragon",
+      "Seccion": "Películas/Series",
+      "nombre": "Esfera del dragón",
       "foto": "Jpeg",
       "precios": [
          {
@@ -1036,8 +1036,8 @@
     {
       "id": 8,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
-      "nombre": "Death star",
+      "Seccion": "Películas/Series",
+      "nombre": "Death Star",
       "foto": "Jpeg",
       "precios": [
          {
@@ -1177,7 +1177,7 @@
     {
       "id": 20,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Groot enojado",
       "foto": "Jpeg",
       "precios": [
@@ -1271,7 +1271,7 @@
     {
       "id": 35,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Harry Potter",
       "foto": "Jpeg",
       "precios": [
@@ -1318,7 +1318,7 @@
     {
       "id": 48,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Hellow Kitty",
       "foto": "Jpeg",
       "precios": [
@@ -1365,7 +1365,7 @@
     {
       "id": 42,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Homero",
       "foto": "Jpeg",
       "precios": [
@@ -1459,7 +1459,7 @@
     {
       "id": 27,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Iron Man",
       "foto": "Jpeg",
       "precios": [
@@ -1506,7 +1506,7 @@
     {
       "id": 46,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Jack",
       "foto": "Jpeg",
       "precios": [
@@ -1694,7 +1694,7 @@
     {
       "id": 19,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Mafalda",
       "foto": "Jpeg",
       "precios": [
@@ -1788,7 +1788,7 @@
     {
       "id": 39,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Mickey",
       "foto": "Jpeg",
       "precios": [
@@ -1835,7 +1835,7 @@
     {
       "id": 40,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Mickey Pantalon",
       "foto": "Jpeg",
       "precios": [
@@ -1882,7 +1882,7 @@
     {
       "id": 38,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Minion",
       "foto": "Jpeg",
       "precios": [
@@ -1929,7 +1929,7 @@
     {
       "id": 53,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Pato Donald",
       "foto": "",
       "precios": [
@@ -1976,7 +1976,7 @@
     {
       "id": 29,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Pikachu",
       "foto": "Jpeg",
       "precios": [
@@ -2070,7 +2070,7 @@
     {
       "id": 30,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Pokebola",
       "foto": "Jpeg",
       "precios": [
@@ -2211,7 +2211,7 @@
     {
       "id": 28,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Snitch Dorada",
       "foto": "Jpeg",
       "precios": [
@@ -2258,7 +2258,7 @@
     {
       "id": 45,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Sonic",
       "foto": "Jpeg",
       "precios": [
@@ -2305,8 +2305,8 @@
     {
       "id": 9,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
-      "nombre": "Spider Man",
+      "Seccion": "Películas/Series",
+      "nombre": "Spider-Man",
       "foto": "Jpeg",
       "precios": [
          {
@@ -2352,8 +2352,8 @@
     {
       "id": 1,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
-      "nombre": "Stich",
+      "Seccion": "Películas/Series",
+      "nombre": "Stitch",
       "foto": "Jpeg",
       "precios": [
          {
@@ -2399,8 +2399,8 @@
     {
       "id": 2,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
-      "nombre": "Stich Con Cuerpo",
+      "Seccion": "Películas/Series",
+      "nombre": "Stitch con cuerpo",
       "foto": "Jpeg",
       "precios": [
          {
@@ -2446,7 +2446,7 @@
     {
       "id": 44,
       "Tipo": "Mate",
-      "Seccion": "Peliculas/Series",
+      "Seccion": "Películas/Series",
       "nombre": "Stormtrooper",
       "foto": "Jpeg",
       "precios": [
