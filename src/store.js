@@ -9,14 +9,41 @@ const initialState = {
     link: ''
 };
 
-const editarLaCantidadDeUnProductoDeLaLista = (lista,id,cantidad) => lista.map(producto => {
+const updatePreciosDelCarrito = (listaDePrecios, listaDePedidos, id) => {
+    let productoPedido = new Producto(listadeprecios.filter(x => x.id === id)[0]);
+    
+    let productosPedidosDelCombo = listaDePedidos.filter(x=>x.proveedor === productoPedido.proveedor && x.tengoLosMismosPrecios(productoPedido));
+    
+    let cantidadCompradaPorCombo = 0;
 
-    if(producto.id === id) {
-        producto.sumarMasDeEsteProducto(cantidad);
+    if(productosPedidosDelCombo.length > 1) {
+        cantidadCompradaPorCombo = productosPedidosDelCombo.reduce((a,b)=> a + b.cantidadAComprar,0);
+    } else {
+        cantidadCompradaPorCombo = productosPedidosDelCombo[0].cantidadAComprar;
     }
 
-    return producto;
-}); 
+    let precioDeCadaCombo = productoPedido.obtenerPrecioParaLaCantidadAComprar(cantidadCompradaPorCombo);
+
+    productosPedidosDelCombo.forEach(x => x.precioDeCompra = precioDeCadaCombo);
+
+}
+
+const editarLaCantidadDeUnProductoDeLaLista = (lista, carrito, id, cantidad) => {
+    let listaDeProductos = [...lista].map(producto => {
+        if(producto.id === id) {
+            producto.sumarMasDeEsteProducto(cantidad);
+        } 
+        return producto;
+    });
+
+    if (!carrito.some(x => x.id === id)) {
+        carrito.push(listaDeProductos.filter(x=>x.id === id)[0]);
+    }
+    
+    updatePreciosDelCarrito(lista, carrito, id);
+
+    return {listaDeProductos, carrito}
+} 
 
 const resetearLaCantidadDeUnProductoDeLaLista = (lista,id) => lista.map(producto => {
 
@@ -48,18 +75,14 @@ const makeWhatsappLink = (listaDeProductos) => {
 const reducerShop = (state = initialState, action) => {
 
     if(action.type === "AGREGAR_PRODUCTO_AL_CARRITO") {
-        let newStateProducto = editarLaCantidadDeUnProductoDeLaLista(state.productos,action.id,action.cantidad);
+        let newState = editarLaCantidadDeUnProductoDeLaLista(state.productos, state.carrito, action.id, action.cantidad);
 
-        if(!state.carrito.some(x=>x.id === action.id)) {
-            state.carrito.push(newStateProducto.filter(x=>x.id === action.id)[0]);
-        }
-        let carrito = [...state.carrito].filter(x=>x.cantidadAComprar > 0);
 
         return {
             ...state,
-            productos: newStateProducto,
-            carrito: carrito,
-            link: makeWhatsappLink(carrito)
+            productos: newState.listaDeProductos,
+            carrito: newState.carrito,
+            link: makeWhatsappLink(newState.carrito)
         }
     }
 
