@@ -64,7 +64,7 @@ const makeWhatsappLink = (listaDeProductos) => {
     let link = `https://wa.me/5491167060100/?text=${encodeURI('*Pedido*\n')}`;
   
     listaDeProductos.forEach(p=> 
-        link += encodeURI(` *- ${p.cantidadAComprar} x* _${p.tipo}-${p.nombre}_ ($ ${p.obtenerPrecioParaLaCantidadAComprar()}) *= $ ${p.getSubTotal()}* \n`)
+        link += encodeURI(` *- ${p.cantidadAComprar} x* _${p.tipo}-${p.nombre}_ ($ ${p.precioDeCompra}) *= $ ${p.getSubTotal()}* \n`)
     );
     
     link += `\n . \n . \n *TOTAL* => *$ ${totalDelPedido(listaDeProductos)}*`
