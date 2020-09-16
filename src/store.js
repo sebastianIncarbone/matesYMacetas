@@ -70,9 +70,9 @@ const resetearLaCantidadDeUnProductoDeLaLista = (lista, carrito, id) => {
         return producto;
     });
 
-    updatePreciosDelCarrito(lista, carrito, id);
-
     carrito = carrito.filter((x) => x.id !== id);
+
+    updatePreciosDelCarrito(lista, carrito, id);
 
     return { listaDeProductos, carrito };
 };
