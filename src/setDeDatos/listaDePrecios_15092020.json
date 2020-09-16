@@ -88,6 +88,50 @@
         "combo": 1007
     },
     {
+        "id": 76,
+        "Tipo": "Mate",
+        "Seccion": "Peliculas/Series",
+        "nombre": "Ángel Con Cuerpo",
+        "foto": "Jpeg",
+        "precios": [
+            {
+                "id": 10000226,
+                "cantidadMinima": 1,
+                "monto": 900
+            },
+            {
+                "id": 10000227,
+                "cantidadMinima": 5,
+                "monto": 880
+            },
+            {
+                "id": 10000228,
+                "cantidadMinima": 10,
+                "monto": 850
+            }
+        ],
+        "cantidadAComprar": 0,
+        "Proveedor": "Andrea",
+        "costo": [
+            {
+                "id": 20000226,
+                "cantidadMinima": 1,
+                "monto": 800
+            },
+            {
+                "id": 20000226,
+                "cantidadMinima": 5,
+                "monto": 800
+            },
+            {
+                "id": 20000226,
+                "cantidadMinima": 10,
+                "monto": 800
+            }
+        ],
+        "combo": 1007
+    },
+    {
         "id": 3,
         "Tipo": "Mate",
         "Seccion": "Peliculas/Series",
@@ -839,7 +883,7 @@
         "id": 20,
         "Tipo": "Mate",
         "Seccion": "Peliculas/Series",
-        "nombre": "Groot enojado",
+        "nombre": "Groot Enojado",
         "foto": "Jpeg",
         "precios": [
             {
@@ -2467,7 +2511,7 @@
         "id": 57,
         "Tipo": "Mate",
         "Seccion": "Peliculas/Series",
-        "nombre": "Groot pensando",
+        "nombre": "Groot Pensando",
         "foto": "",
         "precios": [
             {
@@ -2743,7 +2787,7 @@
         "id": 66,
         "Tipo": "Maceta",
         "Seccion": "Peliculas/Series",
-        "nombre": "Groot paradito",
+        "nombre": "Groot Paradito",
         "foto": "Jpeg",
         "precios": [
             {
@@ -2791,7 +2835,7 @@
         "id": 68,
         "Tipo": "Maceta",
         "Seccion": "Peliculas/Series",
-        "nombre": "Groot pensando 13 cm",
+        "nombre": "Groot Pensando 13 cm",
         "foto": "Jpeg",
         "precios": [
             {
@@ -2815,7 +2859,7 @@
         "id": 69,
         "Tipo": "Maceta",
         "Seccion": "Peliculas/Series",
-        "nombre": "Groot pensando 10 cm",
+        "nombre": "Groot Pensando 10 cm",
         "foto": "Jpeg",
         "precios": [
             {
@@ -2839,7 +2883,7 @@
         "id": 70,
         "Tipo": "Maceta",
         "Seccion": "Peliculas/Series",
-        "nombre": "Groot saludando 15 cm",
+        "nombre": "Groot Saludando 15 cm",
         "foto": "Jpeg",
         "precios": [
             {
@@ -2863,7 +2907,7 @@
         "id": 71,
         "Tipo": "Maceta",
         "Seccion": "Peliculas/Series",
-        "nombre": "Groot saludando 10 cm",
+        "nombre": "Groot Saludando 10 cm",
         "foto": "Jpeg",
         "precios": [
             {
@@ -2887,7 +2931,7 @@
         "id": 72,
         "Tipo": "Maceta",
         "Seccion": "Peliculas/Series",
-        "nombre": "Groot sentado 10 cm",
+        "nombre": "Groot Sentado 10 cm",
         "foto": "Jpeg",
         "precios": [
             {
@@ -2911,7 +2955,7 @@
         "id": 73,
         "Tipo": "Maceta",
         "Seccion": "Peliculas/Series",
-        "nombre": "Groot sentado 15 cm",
+        "nombre": "Groot Sentado 15 cm",
         "foto": "Jpeg",
         "precios": [
             {
@@ -2978,49 +3022,5 @@
             }
         ],
         "combo": null
-    },
-    {
-        "id": 76,
-        "Tipo": "Mate",
-        "Seccion": "Peliculas/Series",
-        "nombre": "Ángel Con Cuerpo",
-        "foto": "Jpeg",
-        "precios": [
-            {
-                "id": 10000226,
-                "cantidadMinima": 1,
-                "monto": 900
-            },
-            {
-                "id": 10000227,
-                "cantidadMinima": 5,
-                "monto": 880
-            },
-            {
-                "id": 10000228,
-                "cantidadMinima": 10,
-                "monto": 850
-            }
-        ],
-        "cantidadAComprar": 0,
-        "Proveedor": "Andrea",
-        "costo": [
-            {
-                "id": 20000226,
-                "cantidadMinima": 1,
-                "monto": 800
-            },
-            {
-                "id": 20000226,
-                "cantidadMinima": 5,
-                "monto": 800
-            },
-            {
-                "id": 20000226,
-                "cantidadMinima": 10,
-                "monto": 800
-            }
-        ],
-        "combo": 1007
     }
 ]
