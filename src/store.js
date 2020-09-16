@@ -27,7 +27,7 @@ const updatePreciosDelCarrito = (listaDePrecios, listaDePedidos, id) => {
             (a, b) => a + b.cantidadAComprar,
             0
         );
-    } else {
+    } else if (productosPedidosDelCombo.length === 1) {
         cantidadCompradaPorCombo = productosPedidosDelCombo[0].cantidadAComprar;
     }
 
