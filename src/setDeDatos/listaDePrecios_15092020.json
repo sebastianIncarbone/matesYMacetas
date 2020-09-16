@@ -223,7 +223,7 @@
         "id": 6,
         "Tipo": "Mate",
         "Seccion": "Peliculas/Series",
-        "nombre": "Casa bob esponja",
+        "nombre": "Casa Bob Esponja",
         "foto": "Jpeg",
         "precios": [
             {
@@ -2935,7 +2935,7 @@
         "id": 74,
         "Tipo": "Maceta",
         "Seccion": "Peliculas/Series",
-        "nombre": "Combo groot",
+        "nombre": "Combo Groot",
         "foto": "Jpeg",
         "precios": [
             {
@@ -2978,5 +2978,49 @@
             }
         ],
         "combo": null
+    },
+    {
+        "id": 76,
+        "Tipo": "Mate",
+        "Seccion": "Peliculas/Series",
+        "nombre": "Ángel Con Cuerpo",
+        "foto": "Jpeg",
+        "precios": [
+            {
+                "id": 10000226,
+                "cantidadMinima": 1,
+                "monto": 900
+            },
+            {
+                "id": 10000227,
+                "cantidadMinima": 5,
+                "monto": 880
+            },
+            {
+                "id": 10000228,
+                "cantidadMinima": 10,
+                "monto": 850
+            }
+        ],
+        "cantidadAComprar": 0,
+        "Proveedor": "Andrea",
+        "costo": [
+            {
+                "id": 20000226,
+                "cantidadMinima": 1,
+                "monto": 800
+            },
+            {
+                "id": 20000226,
+                "cantidadMinima": 5,
+                "monto": 800
+            },
+            {
+                "id": 20000226,
+                "cantidadMinima": 10,
+                "monto": 800
+            }
+        ],
+        "combo": 1007
     }
 ]
