@@ -1,0 +1,1017 @@
+[
+  {
+    "nombre": "Talle S patitas",
+    "id": 1,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_s",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 100000001,
+        "cantidadMinima": 1,
+        "monto": 1800
+      },
+      {
+        "id": 100000002,
+        "cantidadMinima": 6,
+        "monto": 1600
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 200000003,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle S camuflada",
+    "id": 2,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_s",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 100000004,
+        "cantidadMinima": 1,
+        "monto": 1800
+      },
+      {
+        "id": 100000005,
+        "cantidadMinima": 6,
+        "monto": 1600
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 200000006,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle S negra y roja",
+    "id": 3,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_s",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 100000007,
+        "cantidadMinima": 1,
+        "monto": 1800
+      },
+      {
+        "id": 100000008,
+        "cantidadMinima": 6,
+        "monto": 1600
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 200000009,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle S negra",
+    "id": 4,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_s",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 100000010,
+        "cantidadMinima": 1,
+        "monto": 1800
+      },
+      {
+        "id": 100000011,
+        "cantidadMinima": 6,
+        "monto": 1600
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 200000012,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle S rosa",
+    "id": 5,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_s",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 100000013,
+        "cantidadMinima": 1,
+        "monto": 1800
+      },
+      {
+        "id": 100000014,
+        "cantidadMinima": 6,
+        "monto": 1600
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 200000015,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+
+  {
+    "nombre": "Talle M patitas",
+    "id": 6,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_m",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 10000011,
+        "cantidadMinima": 1,
+        "monto": 1900
+      },
+      {
+        "id": 10000012,
+        "cantidadMinima": 6,
+        "monto": 1700
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000013,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle M camuflada",
+    "id": 7,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_m",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 10000014,
+        "cantidadMinima": 1,
+        "monto": 1900
+      },
+      {
+        "id": 10000015,
+        "cantidadMinima": 6,
+        "monto": 1700
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000016,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle M negra y roja",
+    "id": 8,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_m",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 10000017,
+        "cantidadMinima": 1,
+        "monto": 1900
+      },
+      {
+        "id": 10000018,
+        "cantidadMinima": 6,
+        "monto": 1700
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000019,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle M negra",
+    "id": 9,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_m",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 10000020,
+        "cantidadMinima": 1,
+        "monto": 1900
+      },
+      {
+        "id": 10000021,
+        "cantidadMinima": 6,
+        "monto": 1700
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000022,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle M rosa",
+    "id": 10,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_m",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 10000023,
+        "cantidadMinima": 1,
+        "monto": 1900
+      },
+      {
+        "id": 10000024,
+        "cantidadMinima": 6,
+        "monto": 1700
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000025,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+
+  {
+    "nombre": "Talle L patitas",
+    "id": 11,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_l",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 10000026,
+        "cantidadMinima": 1,
+        "monto": 2000
+      },
+      {
+        "id": 10000027,
+        "cantidadMinima": 6,
+        "monto": 1800
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000028,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle L camuflada",
+    "id": 12,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_l",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 10000029,
+        "cantidadMinima": 1,
+        "monto": 2000
+      },
+      {
+        "id": 10000030,
+        "cantidadMinima": 6,
+        "monto": 1800
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000031,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle L negra y roja",
+    "id": 13,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_l",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 10000032,
+        "cantidadMinima": 1,
+        "monto": 2000
+      },
+      {
+        "id": 10000033,
+        "cantidadMinima": 6,
+        "monto": 1800
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000034,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle L negra",
+    "id": 14,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_l",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 10000035,
+        "cantidadMinima": 1,
+        "monto": 2000
+      },
+      {
+        "id": 10000036,
+        "cantidadMinima": 6,
+        "monto": 1800
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000037,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle L rosa",
+    "id": 15,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_l",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 10000038,
+        "cantidadMinima": 1,
+        "monto": 2000
+      },
+      {
+        "id": 10000039,
+        "cantidadMinima": 6,
+        "monto": 1800
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000040,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+
+  {
+    "nombre": "Talle XL patitas",
+    "id": 16,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xl",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 10000041,
+        "cantidadMinima": 1,
+        "monto": 2150
+      },
+      {
+        "id": 10000042,
+        "cantidadMinima": 6,
+        "monto": 1950
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000043,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle XL camuflada",
+    "id": 17,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xl",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 10000044,
+        "cantidadMinima": 1,
+        "monto": 2150
+      },
+      {
+        "id": 10000045,
+        "cantidadMinima": 6,
+        "monto": 1950
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000046,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle XL negra y roja",
+    "id": 18,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xl",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 10000047,
+        "cantidadMinima": 1,
+        "monto": 2150
+      },
+      {
+        "id": 10000048,
+        "cantidadMinima": 6,
+        "monto": 1950
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000049,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle XL negra",
+    "id": 19,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xl",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 10000050,
+        "cantidadMinima": 1,
+        "monto": 2150
+      },
+      {
+        "id": 10000051,
+        "cantidadMinima": 6,
+        "monto": 1950
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000052,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+
+  {
+    "nombre": "Talle XL Esp patitas",
+    "id": 21,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xl_esp",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 10000056,
+        "cantidadMinima": 1,
+        "monto": 2150
+      },
+      {
+        "id": 10000057,
+        "cantidadMinima": 6,
+        "monto": 1950
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000058,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle XL Esp camuflada",
+    "id": 22,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xl_esp",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 10000059,
+        "cantidadMinima": 1,
+        "monto": 2150
+      },
+      {
+        "id": 10000060,
+        "cantidadMinima": 6,
+        "monto": 1950
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000061,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle XL Esp negra y roja",
+    "id": 23,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xl_esp",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 10000062,
+        "cantidadMinima": 1,
+        "monto": 2150
+      },
+      {
+        "id": 10000063,
+        "cantidadMinima": 6,
+        "monto": 1950
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000064,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle XL Esp negra",
+    "id": 24,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xl_esp",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 10000065,
+        "cantidadMinima": 1,
+        "monto": 2150
+      },
+      {
+        "id": 10000066,
+        "cantidadMinima": 6,
+        "monto": 1950
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000067,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle XL Esp rosa",
+    "id": 25,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xl_esp",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 10000068,
+        "cantidadMinima": 1,
+        "monto": 2150
+      },
+      {
+        "id": 10000069,
+        "cantidadMinima": 6,
+        "monto": 1950
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000070,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+
+  {
+    "nombre": "Talle XXL patitas",
+    "id": 26,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xxl",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 10000071,
+        "cantidadMinima": 1,
+        "monto": 2400
+      },
+      {
+        "id": 10000072,
+        "cantidadMinima": 6,
+        "monto": 2200
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000073,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle XXL camuflada",
+    "id": 27,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xxl",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 10000074,
+        "cantidadMinima": 1,
+        "monto": 2400
+      },
+      {
+        "id": 10000075,
+        "cantidadMinima": 6,
+        "monto": 2200
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000076,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle XXL negra y roja",
+    "id": 28,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xxl",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 10000077,
+        "cantidadMinima": 1,
+        "monto": 2400
+      },
+      {
+        "id": 10000078,
+        "cantidadMinima": 6,
+        "monto": 2200
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000079,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle XXL negra",
+    "id": 29,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xxl",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 10000080,
+        "cantidadMinima": 1,
+        "monto": 2400
+      },
+      {
+        "id": 10000081,
+        "cantidadMinima": 6,
+        "monto": 2200
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000082,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+
+  {
+    "nombre": "Talle XXL Esp patitas",
+    "id": 31,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xxl_esp",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 10000086,
+        "cantidadMinima": 1,
+        "monto": 2400
+      },
+      {
+        "id": 10000087,
+        "cantidadMinima": 6,
+        "monto": 2200
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000088,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle XXL Esp camuflada",
+    "id": 32,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xxl_esp",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 10000089,
+        "cantidadMinima": 1,
+        "monto": 2400
+      },
+      {
+        "id": 10000090,
+        "cantidadMinima": 6,
+        "monto": 2200
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000091,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle XXL Esp negra y roja",
+    "id": 33,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xxl_esp",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 10000092,
+        "cantidadMinima": 1,
+        "monto": 2400
+      },
+      {
+        "id": 10000093,
+        "cantidadMinima": 6,
+        "monto": 2200
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000094,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle XXL Esp negra",
+    "id": 34,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xxl_esp",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 10000095,
+        "cantidadMinima": 1,
+        "monto": 2400
+      },
+      {
+        "id": 10000096,
+        "cantidadMinima": 6,
+        "monto": 2200
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000097,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+
+  {
+    "nombre": "Talle XXXL patitas",
+    "id": 36,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xxxl",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 10000101,
+        "cantidadMinima": 1,
+        "monto": 2800
+      },
+      {
+        "id": 10000102,
+        "cantidadMinima": 6,
+        "monto": 2600
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000103,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle XXXL camuflada",
+    "id": 37,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xxxl",
+    "foto": "png",
+    "precios": [
+      {
+        "id": 10000104,
+        "cantidadMinima": 1,
+        "monto": 2800
+      },
+      {
+        "id": 10000105,
+        "cantidadMinima": 6,
+        "monto": 2600
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000106,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle XXXL negra y roja",
+    "id": 38,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xxxl",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 10000107,
+        "cantidadMinima": 1,
+        "monto": 2800
+      },
+      {
+        "id": 10000108,
+        "cantidadMinima": 6,
+        "monto": 2600
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000109,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  },
+  {
+    "nombre": "Talle XXXL negra",
+    "id": 39,
+    "Tipo": "mochichuni",
+    "Seccion": "talle_xxxl",
+    "foto": "jpg",
+    "precios": [
+      {
+        "id": 10000110,
+        "cantidadMinima": 1,
+        "monto": 2800
+      },
+      {
+        "id": 10000111,
+        "cantidadMinima": 6,
+        "monto": 2600
+      }
+    ],
+    "cantidadAComprar": 0,
+    "Proveedor": "Mochichunis",
+    "costo": [
+      {
+        "id": 20000112,
+        "cantidadMinima": 1,
+        "monto": 0
+      }
+    ]
+  }
+]
