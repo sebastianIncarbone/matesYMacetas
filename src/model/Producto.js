@@ -1,82 +1,80 @@
 import { Precio } from "./Precio";
 
 export class Producto {
-    constructor({
-        id,
-        Tipo,
-        Seccion,
-        nombre,
-        foto,
-        precios,
-        cantidadAComprar,
-        Proveedor,
-        costo,
-        Ganancias,
-        ofertas_1,
-        ofertas_5,
-        ofertas_10,
-        combo,
-    }) {
-        this.id = id;
-        this.tipo = Tipo;
-        this.seccion = Seccion;
-        this.nombre = nombre;
-        this.foto = !foto
-            ? null
-            : `/assets/${Tipo.toLocaleLowerCase()}/${nombre.replace(
-                  / /g,
-                  ""
-              )}.${foto.toLocaleLowerCase()}`;
-        this.precios = precios.map((p) => new Precio(p));
-        this.cantidadAComprar = cantidadAComprar;
-        this.proveedor = Proveedor;
-        this.costo = costo;
-        this.ganancias = Ganancias;
-        this.ofertas_1 = ofertas_1;
-        this.ofertas_5 = ofertas_5;
-        this.ofertas_10 = ofertas_10;
-        this.combo = combo;
-        this.precioDeCompra = 0;
-    }
+  constructor({
+    id,
+    Tipo,
+    Seccion,
+    nombre,
+    foto,
+    precios,
+    cantidadAComprar,
+    Proveedor,
+    costo,
+    Ganancias,
+    ofertas_1,
+    ofertas_5,
+    ofertas_10,
+    combo,
+  }) {
+    this.id = id;
+    this.tipo = Tipo;
+    this.seccion = Seccion;
+    this.nombre = nombre;
+    this.foto = !foto
+      ? null
+      : `/assets/${Tipo.toLocaleLowerCase()}/${nombre.replace(
+          / /g,
+          ""
+        )}.${foto.toLocaleLowerCase()}`;
+    this.precios = precios.map((p) => new Precio(p));
+    this.cantidadAComprar = cantidadAComprar;
+    this.proveedor = Proveedor;
+    this.costo = costo;
+    this.ganancias = Ganancias;
+    this.ofertas_1 = ofertas_1;
+    this.ofertas_5 = ofertas_5;
+    this.ofertas_10 = ofertas_10;
+    this.combo = combo;
+    this.precioDeCompra = 0;
+  }
 
-    getSubTotal() {
-        return this.precioDeCompra * this.cantidadAComprar;
-    }
+  getSubTotal() {
+    return this.precioDeCompra * this.cantidadAComprar;
+  }
 
-    obtenerPrecioParaLaCantidadAComprar(cantidadPedida) {
-        let cantidadMinimaDelPrecio = Math.max.apply(
-            null,
-            this.precios
-                .map((p) => p.cantidadMinima)
-                .filter((c) => cantidadPedida >= c)
-        );
-        let precio = this.precios.filter(
-            (p) => p.cantidadMinima === cantidadMinimaDelPrecio
-        )[0];
+  obtenerPrecioParaLaCantidadAComprar(cantidadPedida) {
+    let cantidadMinimaDelPrecio = Math.max.apply(
+      null,
+      this.precios
+        .map((p) => p.cantidadMinima)
+        .filter((c) => cantidadPedida >= c)
+    );
+    let precio = this.precios.filter(
+      (p) => p.cantidadMinima === cantidadMinimaDelPrecio
+    )[0];
 
-        return precio === undefined ? 0 : precio.monto;
-    }
+    return precio === undefined ? 0 : precio.monto;
+  }
 
-    sumarMasDeEsteProducto(cantidad) {
-        if (this.cantidadAComprar + cantidad <= 0) {
-            return;
-        }
-        this.cantidadAComprar = this.cantidadAComprar + cantidad;
+  sumarMasDeEsteProducto(cantidad) {
+    if (this.cantidadAComprar + cantidad <= 0) {
+      return;
     }
+    this.cantidadAComprar = this.cantidadAComprar + cantidad;
+  }
 
-    resetearCantidad() {
-        this.cantidadAComprar = 0;
-    }
+  resetearCantidad() {
+    this.cantidadAComprar = 0;
+  }
 
-    mostrarEnCatalogo() {
-        return (
-            this.foto != null &&
-            this.precios.length > 0 &&
-            this.precios[0].monto > 0
-        );
-    }
+  mostrarEnCatalogo() {
+    return (
+      this.foto != null && this.precios.length > 0 && this.precios[0].monto > 0
+    );
+  }
 
-    tengoLosMismosPrecios(otroProducto) {
-        return otroProducto != null && this.combo === otroProducto.combo;
-    }
+  tengoLosMismosPrecios(otroProducto) {
+    return otroProducto != null && this.combo === otroProducto.combo;
+  }
 }
